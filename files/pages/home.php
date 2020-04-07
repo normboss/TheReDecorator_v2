@@ -23,8 +23,8 @@ if (!session_id())
 
         <nav class="menu">
             <ul>
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">SLIPCOVERS</a></li>
+                <li><a href="home.php">HOME</a></li>
+                <li><a href="slipcovers.php">SLIPCOVERS</a></li>
                 <li><a href="#">CONTACT</a></li>
             </ul>
         </nav>
@@ -127,7 +127,7 @@ if (!session_id())
                     Refresh your rooms with long wearing, washable slipcovers.
                 </div>
                 <div class="column2-block4 column2-block">
-                    <button class="button1" href="#">Slipcovers</button>
+                    <button class="button1" href="slipcovers.php">Slipcovers</button>
                 </div>
                 <div class="column2-block5 column2-block">
                     Why spend another day In a space that you don’t Love?
