@@ -38,7 +38,7 @@
 
         <div class="form-container">
 
-            <div>
+            <div class="text-block">
                 We enjoy meeting and working with people who love what they do.
                 <br>
                 <div class="spacer10"></div>
@@ -166,8 +166,9 @@ Use the following syntax to include submit and reset buttons:
 -->
                 <!-- <label for="submit"></label> -->
                 <!-- <input type="submit" name="submit" value="Send"> -->
-                <button class="button1" href="contact.php">Contact Lucy</button>
-
+                <div class="button-block">
+                    <button class="button1" href="contact.php">Contact Lucy</button>
+                </div>
                 <!--<input type="reset" name="reset" value="Reset" >-->
 
             </form>

@@ -85,7 +85,6 @@ body {
 }
 
 .header .logo {
-  border: 3px solid red;
   width: 920px;
   position: absolute;
   text-align: center;

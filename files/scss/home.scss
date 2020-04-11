@@ -50,7 +50,7 @@ body {
     }
 
     .logo {
-        border: 3px solid red;
+        // border: 3px solid red;
         width: 920px;
         @include max-mixin(1000px) {
             width: 700px;

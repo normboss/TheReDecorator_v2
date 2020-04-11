@@ -134,6 +134,10 @@ body {
   margin: 0 auto;
 }
 
+.main img {
+  margin-bottom: 20px;
+}
+
 .main .form-container {
   width: 100%;
   height: 800px;
@@ -152,11 +156,18 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding-top: 20px;
+}
+
+.main .form-container .text-block {
+  font-size: 18px;
+  text-align: left;
+  width: 70%;
 }
 
 .main .form-container form {
   height: 500px;
-  width: 800px;
+  width: 70%;
   padding-top: 25px;
   border: 0px solid blue;
   text-align: left;
@@ -183,6 +194,7 @@ body {
   padding-top: 5px;
   font-size: 18px;
   color: #707070;
+  line-height: 2;
 }
 
 .main .form-container form .field-block {
@@ -199,7 +211,6 @@ body {
 
 .main .form-container form .description-field {
   font-size: 24px;
-  margin-top: 10px;
 }
 
 .main .form-container form .description-field label {
@@ -226,7 +237,7 @@ body {
   font-family: 'Open Sans';
   font-weight: 400;
   width: 99%;
-  border: 1px #ccc solid;
+  border: 2px #ccc solid;
   background-color: #fff;
   border-bottom: 1px #707070 solid;
   padding: 5px;
@@ -260,5 +271,10 @@ body {
   background: linear-gradient(#7b88c5, #435299);
   border: solid 1px #435299;
   border-radius: 5px;
+}
+
+.main .form-container form .button-block {
+  margin: 0 auto;
+  text-align: center;
 }
 /*# sourceMappingURL=contact.css.map */

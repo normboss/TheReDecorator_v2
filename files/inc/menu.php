@@ -1,7 +1,7 @@
 <nav class="menu">
     <ul>
-        <li><a href="#">HOME</a></li>
-        <li><a href="#">SLIPCOVERS</a></li>
-        <li><a href="#">CONTACT</a></li>
+        <li><a href="home.php">HOME</a></li>
+        <li><a href="slipcovers.php">SLIPCOVERS</a></li>
+        <li><a href="contact.php">CONTACT</a></li>
     </ul>
 </nav>

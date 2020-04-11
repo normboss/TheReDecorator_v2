@@ -84,7 +84,9 @@ body {
 
 .main {
     margin: 0 auto;
-
+    img {
+        margin-bottom: 20px;;
+    }
     
     .form-container {
         width: 100%;
@@ -100,17 +102,26 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
+        padding-top: 20px;
+
+        .text-block {
+            // border: 3px solid red;
+            font-size: 18px;
+            text-align: left;
+            // align-self: ;
+            // padding-left: 100px;
+            width: 70%;
+            // width: 700px;
+        }
 
         form {
             // background-color: pink;;
             height: 500px;
-            width: 800px;
+            width: 70%;
             padding-top: 25px;
             border: 0px solid blue;
-            // width: 100%;
-            // width: 90%;
-            // width: 600px;
             text-align: left;
+
             .diagnostic {
                 color: red;
                 font-weight: bold;
@@ -134,6 +145,8 @@ body {
                 padding-top: 5px;
                 font-size: 18px;
                 color: #707070;
+                // height: 50%;
+                line-height: 2;
             }
             .field-block {
                 display: flex;
@@ -152,7 +165,7 @@ body {
                     height: 50px;
                 }
                 font-size: 24px;
-                margin-top: 10px;
+                // margin-top: 5px;
             }
             .question-field {
                 label {
@@ -175,7 +188,7 @@ body {
                 font-family: 'Open Sans';
                 font-weight: 400;
                 width: 99%;
-                border: 1px #ccc solid;
+                border: 2px #ccc solid;
                 background-color: #fff; //#f5f5f5;
                 border-bottom: 1px #707070 solid;
                 padding: 5px;
@@ -208,6 +221,12 @@ body {
                 border-radius: 5px;
             }
             // border: 3px solid red;
+
+            .button-block {
+                // border: solid 3px red;
+                margin: 0 auto;
+                text-align: center;
+            }
         }
     }
 }
