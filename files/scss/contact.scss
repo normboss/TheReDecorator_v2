@@ -147,7 +147,7 @@ body {
                 font-size: 18px;
                 color: #707070;
                 // height: 50%;
-                line-height: 2;
+                line-height: normal;
             }
             .field-block {
                 display: flex;
@@ -164,8 +164,7 @@ body {
                     background-image: url("../img/linedpaper330.jpg");
                     background-size: cover;
                     background-position: top;
-                    border: 2px solid #d0d0d0;
-                    
+                    border: 0px solid #d0d0d0;                  
                 }
             }
             .contact-field {
@@ -225,6 +224,8 @@ body {
                 background-size: cover;
                 background-position: top;
                 overflow: hidden;
+                border: 0px solid #d0d0d0;
+
             }
 
             .submit {

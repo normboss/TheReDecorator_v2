@@ -194,7 +194,7 @@ body {
   padding-top: 5px;
   font-size: 18px;
   color: #707070;
-  line-height: 2;
+  line-height: normal;
 }
 
 .main .form-container form .field-block {
@@ -210,7 +210,7 @@ body {
   background-image: url("../img/linedpaper330.jpg");
   background-size: cover;
   background-position: top;
-  border: 2px solid #d0d0d0;
+  border: 0px solid #d0d0d0;
 }
 
 .main .form-container form .contact-field label {
@@ -262,6 +262,7 @@ body {
   background-size: cover;
   background-position: top;
   overflow: hidden;
+  border: 0px solid #d0d0d0;
 }
 
 .main .form-container form .submit {
