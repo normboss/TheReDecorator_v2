@@ -8,6 +8,8 @@
     <meta name="description" content="">
     <link href="../css/contact.css" media="screen" rel="stylesheet" type="text/css">
     <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon-16x16.png">
+
 </head>
 
 <body>
