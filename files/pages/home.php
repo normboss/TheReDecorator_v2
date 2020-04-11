@@ -108,7 +108,7 @@ if (!session_id())
                     </div>
                     <br>
                     <div class="column1-block3-button column1-block">
-                        <button class="button1" href="contact.php">Contact Lucy</button>
+                        <button class="button1" onclick="window.location.href = 'contact.php'">Contact Lucy</button>
                     </div>
                 </div>
 
@@ -133,7 +133,7 @@ if (!session_id())
                     Why spend another day In a space that you don’t Love?
                 </div>
                 <div class="column2-block6 column2-block">
-                    <button class="button1" href="contact.php">Contact Lucy</button>
+                    <button class="button1" onclick="window.location.href = 'contact.php'">Contact Lucy</button>
 
                 </div>
                 <div class="column2-block7 column2-block">
