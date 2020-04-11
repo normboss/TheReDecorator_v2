@@ -24,7 +24,6 @@ body {
     background-position-x: center;
     position: relative;
 
-
     .menu {
         // border: 3px solid red;
         position: absolute;
@@ -36,7 +35,7 @@ body {
         padding-top: 25px;
         ul {
             display: flex;
-    
+
             font-family: "Open Sans";
             font-size: 18px;
             list-style: none;
@@ -49,18 +48,23 @@ body {
             }
         }
     }
-    
-    
 
     .logo {
-        // border: 3px solid red;
+        border: 3px solid red;
         width: 920px;
+        @include max-mixin(1000px) {
+            width: 700px;
+        }
         position: absolute;
         text-align: center;
+
         h1 {
             font-weight: 600;
             color: white;
             font-size: 90px;
+            @include max-mixin(1000px) {
+                font-size: 70px;
+            }
             .red-text {
                 color: red;
             }
@@ -78,6 +82,9 @@ body {
             word-spacing: 4px;
             // letter-spacing: 1px;
             line-height: 40px;
+            @include max-mixin(1000px) {
+                font-size: 32px;
+            }
         }
         left: 50%;
         top: 70%;
@@ -104,7 +111,8 @@ body {
 }
 
 .container {
-    width: 1200px;
+    max-width: 1200px;
+    width: 100%;
     display: flex;
     justify-content: center;
     margin: 0 auto;
@@ -117,10 +125,18 @@ body {
         grid-template-rows: auto auto auto;
         justify-items: center;
         column-gap: 25px;
+        @include max-mixin(1000px) {
+            column-gap: 15px;;
+        }
 
         .column {
             border: 2px solid #707070;
-            width: 450px;
+            // width: 450px;
+            min-width: 100px;
+            width: 100%;
+            @include max-mixin(1400px) {
+                // width: 400px;
+            }
 
             img {
                 width: 100%;
@@ -139,6 +155,9 @@ body {
             }
 
             $column1-block1-font-size-mult: 1.3;
+            @include max-mixin(800px) {
+                $column1-block1-font-size-mult: 1.1;
+            }
 
             &-block1 {
                 color: #707070;
@@ -166,6 +185,9 @@ body {
                     text-align: left;
 
                     $font-size-adj: 2;
+                    @include max-mixin(800px) {
+                        $font-size-adj: 1.5;   
+                    }
                     .size1 {
                         color: #f00e0e;
                         // font-size: 30px;
@@ -193,10 +215,10 @@ body {
                         font-family: "Noteworthy Light";
                         font-size: 30px * $font-size-adj;
                         color: #f00e0e;
+                        line-height: 1.2;
                     }
                 }
             }
-
 
             &-block3 {
                 text-align: center;
@@ -227,11 +249,12 @@ body {
 
         .column2 {
             margin: 0 auto;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+            text-align: center;
+            // display: flex;
+            // flex-direction: column;
+            // align-items: center;
             height: auto;
-            height: 1080px;
+            // height: 1080px;
 
             img {
                 width: 70%;
@@ -278,14 +301,23 @@ body {
         }
 
         .column3 {
-            padding: 25px;
             color: #707070;
             font-size: 18px;
-            height: 900px;
+            // height: 900px;
+            height: auto;
+
+            img {
+                width: 100%;
+                padding: 0;
+                margin: 0;
+            }
 
             &-block2 {
                 text-align: center;
                 font-size: 50px;
+            }
+            &-block3 {
+                padding: 25px;
             }
         }
     }
