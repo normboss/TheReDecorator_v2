@@ -205,12 +205,24 @@ body {
   width: auto;
 }
 
+.main .form-container form .field-block input {
+  height: 18px;
+  padding-bottom: 8px;
+  margin-top: 13px;
+}
+
 .main .form-container form .contact-field label {
   width: 250px;
 }
 
+.main .form-container form .contact-field input {
+  height: 18px;
+  padding-bottom: 8px;
+  margin-top: 13px;
+}
+
 .main .form-container form .description-field {
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .main .form-container form .description-field label {
@@ -244,6 +256,9 @@ body {
   resize: none;
   color: #000000;
   font-size: 18px;
+  background-image: url("../img/linedpaper330.jpg");
+  background-size: cover;
+  background-position: top;
 }
 
 .main .form-container form .submit {

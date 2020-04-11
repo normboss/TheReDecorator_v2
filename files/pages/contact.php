@@ -94,7 +94,7 @@ form where to e-mail the contents of the form. -->
 
                 <label for="message">Describe your project of question:</label>
                 <div class="field-block description-field">
-                    <textarea cols="40" maxlength="1000" name="message" rows="5"  wrap="hard"></textarea>
+                    <textarea cols="40" maxlength="1000" name="message" rows="10"  wrap="hard"></textarea>
                 </div>
                 <!-- <br>
                 <label for="message">Describe your project of question:</label>

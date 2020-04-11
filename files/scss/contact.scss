@@ -152,10 +152,22 @@ body {
                 display: flex;
                 margin-bottom: 20px;
                 width: auto;
+                input {
+                    // border: 3px solid red;
+                    height: 18px;
+                    padding-bottom: 8px;
+                    margin-top: 13px;
+                }
             }
             .contact-field {
                 label {
                     width: 250px;
+                }
+                input {
+                    // border: 3px solid red;
+                    height: 18px;
+                    padding-bottom: 8px;
+                    margin-top: 13px;
                 }
             }
 
@@ -164,7 +176,7 @@ body {
                     width: 500px;
                     height: 50px;
                 }
-                font-size: 24px;
+                font-size: 20px;
                 // margin-top: 5px;
             }
             .question-field {
@@ -195,6 +207,9 @@ body {
                 resize: none;
                 color: #000000;
                 font-size: 18px;
+                background-image: url("../img/linedpaper330.jpg");
+                background-size: cover;
+                background-position: top;
             }
 
             .submit {
