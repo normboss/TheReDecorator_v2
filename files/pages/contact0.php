@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Redecorator - contact</title>
     <meta name="description" content="">
-    <link href="../css/contact.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="../css/contact0.css" media="screen" rel="stylesheet" type="text/css">
     <script src="//code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 
@@ -75,16 +75,16 @@ form where to e-mail the contents of the form. -->
                 <!--<input type="text" name="fieldname" size="25">-->
 
                 <!--For example if you wanted to create a input field called fullname it would look like this: -->
-                <label for="first_name">Name:&nbsp;</label>
                 <div class="field-block">
+                    <label for="first_name">Name:&nbsp;</label>
                     <input type="text" name="fullname" size="25">
                 </div>
                 <!-- <label for="first_name">First Name *</label> 
     <input maxlength="50" name="first_name" size="40" type="text">
     <label for="last_name">Last Name *</label>
     <input maxlength="50" name="last_name" size="40" type="text">   -->
-                <label for="email">Contact Information:&nbsp;</label>
                 <div class="field-block contact-field">
+                    <label for="email">Contact Information:&nbsp;</label>
                     <input maxlength="80" name="email" size="40" type="text">
                 </div>
                 <!-- <label for="subject">Subject</label>
@@ -94,7 +94,7 @@ form where to e-mail the contents of the form. -->
 
                 <label for="message">Describe your project of question:</label>
                 <div class="field-block description-field">
-                    <textarea cols="40" maxlength="1000" name="message" rows="10" wrap="hard"></textarea>
+                    <textarea cols="40" maxlength="1000" name="message" rows="10"  wrap="hard"></textarea>
                 </div>
                 <!-- <br>
                 <label for="message">Describe your project of question:</label>
