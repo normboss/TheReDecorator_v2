@@ -110,7 +110,7 @@ body {
   margin: 0 auto;
   font-family: "Open Sans", sans-serif;
   margin: 0 auto;
-  max-width: 1400px;
+  max-width: 1000px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -123,6 +123,10 @@ body {
 
 .red-text {
   color: red;
+}
+
+.header {
+  margin: 0 auto;
 }
 
 .header .menu1 {
@@ -193,73 +197,166 @@ body {
   font-size: 28px;
 }
 
-.container {
-  margin-top: 50px;
-  width: 1200px;
-  height: auto;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr;
-  -ms-grid-rows: auto auto auto;
-      grid-template-rows: auto auto auto;
-  -webkit-column-gap: 25px;
-          column-gap: 25px;
+.main {
+  margin: 0 auto;
 }
 
-.container .column {
-  width: 450px;
-  height: auto;
+.main img {
+  margin-bottom: 20px;
 }
 
-.container .column img {
+.main .form-container {
   width: 100%;
+  height: 800px;
+  border: 1px solid #707070;
+  text-align: left;
+  font-family: "Open Sans";
+  font-size: 14px;
+  min-width: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 20px;
 }
 
-.container .column .red-text {
+.main .form-container .text-block {
+  font-size: 18px;
+  text-align: left;
+  width: 70%;
+}
+
+.main .form-container form {
+  height: 500px;
+  width: 70%;
+  padding-top: 25px;
+  border: 0px solid blue;
+  text-align: left;
+}
+
+.main .form-container form .diagnostic {
   color: red;
+  font-weight: bold;
+  font-style: italic;
 }
 
-.container .column-image {
+.main .form-container form textarea {
+  height: 300px;
   height: auto;
-  margin-bottom: 50px;
-}
-
-.container .column-image img {
+  /*width: 400px;*/
   width: 100%;
 }
 
-.container .column-copy-block {
-  height: 215px;
-}
-
-.container .column-copy-block .column-heading {
-  font-family: 600;
-  font-size: 50px;
-  text-align: center;
-  color: #7b7f83;
-}
-
-.container .column-copy-block .column-copy {
+.main .form-container form label {
+  width: auto;
+  text-align: left;
+  font-style: italic;
+  display: block;
+  padding-top: 5px;
+  font-size: 18px;
   color: #707070;
-  font-size: 20px;
   line-height: 2;
 }
 
-.trailer {
-  margin: 0 auto;
-  width: 70%;
-  margin-bottom: 50px;
+.main .form-container form .field-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+  width: auto;
 }
 
-.trailer .heading {
-  color: #0C0D0D;
-  font-size: 60px;
-  margin-bottom: 15px;
+.main .form-container form .field-block input {
+  height: 18px;
+  padding-bottom: 8px;
+  margin-top: 13px;
 }
 
-.trailer .copy {
-  color: #707070;
+.main .form-container form .contact-field label {
+  width: 250px;
+}
+
+.main .form-container form .contact-field input {
+  height: 18px;
+  padding-bottom: 8px;
+  margin-top: 13px;
+}
+
+.main .form-container form .description-field {
   font-size: 20px;
 }
-/*# sourceMappingURL=slipcovers.css.map */
+
+.main .form-container form .description-field label {
+  width: 500px;
+  height: 50px;
+}
+
+.main .form-container form .question-field label {
+  width: 500px;
+}
+
+.main .form-container form input {
+  width: 99%;
+  border: 0px;
+  border-bottom: 1px #707070 solid;
+  background-color: #fff;
+  padding: 5px;
+  margin-bottom: 10px;
+  color: #000000;
+  font-size: 18px;
+}
+
+.main .form-container form textarea {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  width: 99%;
+  border: 2px #ccc solid;
+  background-color: #fff;
+  border-bottom: 1px #707070 solid;
+  padding: 5px;
+  resize: none;
+  color: #000000;
+  font-size: 18px;
+  background-image: url("../img/linedpaper330.jpg");
+  background-size: cover;
+  background-position: top;
+}
+
+.main .form-container form .submit {
+  width: 50%;
+  /*margin: 10px 0 20px 0;*/
+  cursor: pointer;
+  color: #444;
+  color: red;
+  font: 16px "Oswald", Verdana, Helvetica, sans-serif;
+  font-weight: normal;
+  padding: 2px 18px;
+  text-decoration: none;
+  background-color: #f8f8f8;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f8f8f8), to(#d8d8d8));
+  background: linear-gradient(#f8f8f8, #d8d8d8);
+  border: solid 1px #d8d8d8;
+  border-radius: 5px;
+}
+
+.main .form-container form .submit:hover {
+  text-decoration: none;
+  color: #fff;
+  background-color: #7b88c5;
+  background: -webkit-gradient(linear, left top, left bottom, from(#7b88c5), to(#435299));
+  background: linear-gradient(#7b88c5, #435299);
+  border: solid 1px #435299;
+  border-radius: 5px;
+}
+
+.main .form-container form .button-block {
+  margin: 0 auto;
+  text-align: center;
+}
+/*# sourceMappingURL=contact0.css.map */

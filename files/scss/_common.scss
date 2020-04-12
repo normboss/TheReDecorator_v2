@@ -62,3 +62,44 @@ body * {
     cursor: pointer;
 }
 
+.footer {
+    margin-top: 25px;
+    width: 100%;
+    height: 160px;
+    background-color: #F0E3DF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+
+    .footer-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        @include max-mixin(500px) {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        // width: 60%;
+        margin: 0 auto;
+        overflow: hidden;
+
+        .footer-text {
+            margin-right: 50px;
+            .logo {
+                color: #050505;
+                .red-text {
+                    color: red;
+                }
+
+            }
+            h3 {
+                color: #707070;
+            }
+            @include max-mixin(450px) {
+                font-size: 15px;
+            }
+        }
+    }
+}

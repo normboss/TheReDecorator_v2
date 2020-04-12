@@ -39,6 +39,73 @@ body * {
   cursor: pointer;
 }
 
+.footer {
+  margin-top: 25px;
+  width: 100%;
+  height: 160px;
+  background-color: #F0E3DF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: hidden;
+}
+
+.footer .footer-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 500px) {
+  .footer .footer-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+}
+
+.footer .footer-content .footer-text {
+  margin-right: 50px;
+}
+
+.footer .footer-content .footer-text .logo {
+  color: #050505;
+}
+
+.footer .footer-content .footer-text .logo .red-text {
+  color: red;
+}
+
+.footer .footer-content .footer-text h3 {
+  color: #707070;
+}
+
+@media screen and (max-width: 450px) {
+  .footer .footer-content .footer-text {
+    font-size: 15px;
+  }
+}
+
 body {
   margin: 0 auto;
   font-family: "Open Sans", sans-serif;

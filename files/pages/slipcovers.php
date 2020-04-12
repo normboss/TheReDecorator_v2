@@ -104,7 +104,7 @@
                 <img src="../img/camel_back72.png" alt="">
             </div>
             <div class="column-image">
-                <img src="../img/before72.png" alt="">
+                <img src="../img/after72.png" alt="">
             </div>
 
         </div>
@@ -153,6 +153,7 @@
             proud of for years to come. Call her today to set up an appointment.
             </div>
         </div>
+        <?php require '../inc/footer.php' ?>
 
 </body>
 

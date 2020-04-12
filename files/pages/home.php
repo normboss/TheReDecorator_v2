@@ -38,7 +38,7 @@ if (!session_id())
     </header>
 
     <section class="home-way">
-        <h1>Your Home, Your Way</h1>
+        <h1>Your Home, Your&nbsp;Way</h1>
         <p>
             Choosing fabrics, paint colors, accessories and decorative accents
             that compliment the architectural elements in your space is my specialty.
@@ -48,6 +48,7 @@ if (!session_id())
 
     <main class="container">
         <div class="centering-block">
+
             <!-- Column1 -->
             <div class="column column1">
                 <img src="../img/fabric_samples.png" alt="">
@@ -131,7 +132,7 @@ if (!session_id())
                     <button class="button1" onclick="window.location.href = 'slipcovers.php'">Slipcovers</button>
                 </div>
                 <div class="column2-block5 column2-block">
-                    Why spend another day In a space that you don’t Love?
+                    Why spend another day In a space that you don’t&nbsp;Love?
                 </div>
                 <div class="column2-block6 column2-block">
                     <button class="button1" onclick="window.location.href = 'contact.php'">Contact Lucy</button>
@@ -143,10 +144,10 @@ if (!session_id())
             </div>
 
             <!-- Column3 -->
-            <div id="column3" class="column column3">
+            <div class="column column3">
                 <img src="../img/kitchen.png" alt="">
-                <div class="column3-block1 column3-block">
-                </div>
+                <!-- <div class="column3-block1 column3-block">
+                </div> -->
                 <div class="column3-block2 column3-block">
                     Testimonials
                 </div>
@@ -164,8 +165,8 @@ if (!session_id())
                     these three slip covers! Our favorite swivel rockers look so good everyone thinks they are new. <br>
                     Thank you again, <br>
                     Jane Herbert, Damariscotta, ME <br><br>
-                    <span id="more1">
-
+                    <div id="more1">
+                        <p>
                         “Lucy Smith replaced some very worn slipcovers for us and did a meticulous job;
                         the result looks like we acquired new furniture! I recommend her highly.” ~~~ <br>
                         Brinna, Bremen Long Island, <br><br>
@@ -186,12 +187,15 @@ if (!session_id())
                         experience with a previous decorator. <br>Best o luck with your new venture and
                         keep up the great work. <br>
                         Very truly yours, Susan<br><br>
-                    </span>
+                        </p>
+                    </div>
                     <button onclick="myFunction1()" id="myBtn1">Read more</button>
                 </div>
             </div>
         </div>
     </main>
+
+    <?php require '../inc/footer.php' ?>
 
 
     <script>
@@ -200,7 +204,7 @@ if (!session_id())
         var col3 = document.getElementById("column3");
         btnText1.innerHTML = "Read more";
         moreText1.style.display = "none";
-        col3.style.height = "900px";
+        col3.style.height = "auto";
 
         function myFunction1() {
             if (moreText1.style.display === "inline") {

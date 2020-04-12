@@ -179,6 +179,7 @@ Use the following syntax to include submit and reset buttons:
         </div>
 
     </main>
+    <?php require '../inc/footer.php' ?>
 
 </body>
 
