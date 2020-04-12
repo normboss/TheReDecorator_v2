@@ -377,18 +377,15 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 100%;
   background-color: #f0e3df;
 }
 
 @media screen and (max-width: 500px) {
   .container .centering-block .column1-block2 {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
     padding-left: 0px;
     padding-right: 0px;
   }
