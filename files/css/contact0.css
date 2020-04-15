@@ -350,18 +350,64 @@ body {
   padding-top: 20px;
 }
 
+@media screen and (max-width: 1000px) {
+  .main .form-container {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    padding-left: 5%;
+    width: 100vw;
+    padding-right: 0;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .main .form-container {
+    padding-left: 10px;
+  }
+}
+
 .main .form-container .text-block {
+  border: 3px solid red;
   font-size: 18px;
   text-align: left;
   width: 70%;
 }
 
+@media screen and (max-width: 1000px) {
+  .main .form-container .text-block {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .main .form-container .text-block {
+    width: 99%;
+    margin-left: 0px;
+  }
+}
+
 .main .form-container form {
   height: 500px;
   width: 70%;
+  min-width: 200px;
   padding-top: 25px;
-  border: 0px solid blue;
+  border: 2px solid blue;
   text-align: left;
+}
+
+@media screen and (max-width: 1000px) {
+  .main .form-container form {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .main .form-container form {
+    width: 99%;
+    margin-left: 0px;
+  }
 }
 
 .main .form-container form .diagnostic {
@@ -447,9 +493,6 @@ body {
   resize: none;
   color: #000000;
   font-size: 18px;
-  background-image: url("../img/linedpaper330.jpg");
-  background-size: cover;
-  background-position: top;
 }
 
 .main .form-container form .submit {

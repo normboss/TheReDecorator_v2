@@ -256,17 +256,18 @@ body {
 
 .main {
   margin: 0 auto;
+  margin-left: 0;
 }
 
 .main img {
   margin-bottom: 20px;
+  width: 100%;
 }
 
 .main .form-container {
   width: 100%;
   height: 800px;
   border: 1px solid #707070;
-  text-align: left;
   font-family: "Open Sans";
   font-size: 14px;
   min-width: 250px;
@@ -283,10 +284,32 @@ body {
   padding-top: 20px;
 }
 
+@media screen and (max-width: 1000px) {
+  .main .form-container {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    padding-left: 20px;
+  }
+}
+
 .main .form-container .text-block {
   font-size: 18px;
   text-align: left;
   width: 70%;
+}
+
+@media screen and (max-width: 1000px) {
+  .main .form-container .text-block {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .main .form-container .text-block {
+    width: 99%;
+    margin-left: 0px;
+  }
 }
 
 .main .form-container form {
@@ -295,6 +318,19 @@ body {
   padding-top: 25px;
   border: 0px solid blue;
   text-align: left;
+}
+
+@media screen and (max-width: 1000px) {
+  .main .form-container form {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .main .form-container form {
+    width: 99%;
+    margin-left: 0px;
+  }
 }
 
 .main .form-container form .diagnostic {
@@ -330,11 +366,22 @@ body {
 }
 
 .main .form-container form .field-block input {
+  height: 25px;
   font-size: 18px;
-  background-image: url("../img/linedpaper330.jpg");
-  background-size: cover;
-  background-position: top;
-  border: 0px solid #d0d0d0;
+}
+
+@media screen and (min-width: 1000px) {
+  .main .form-container form .field-block input {
+    background-image: url("../img/linedpaper330.jpg");
+    background-size: cover;
+    background-position: top;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .main .form-container form .field-block input {
+    border-bottom: 2px solid #d0d0d0;
+  }
 }
 
 .main .form-container form .contact-field label {
@@ -343,9 +390,20 @@ body {
 
 .main .form-container form .contact-field input {
   font-size: 18px;
-  background-image: url("../img/linedpaper330.jpg");
-  background-size: cover;
-  background-position: top;
+}
+
+@media screen and (min-width: 1000px) {
+  .main .form-container form .contact-field input {
+    background-image: url("../img/linedpaper330.jpg");
+    background-size: cover;
+    background-position: top;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .main .form-container form .contact-field input {
+    border-bottom: 2px solid #d0d0d0;
+  }
 }
 
 .main .form-container form .description-field {
@@ -372,7 +430,7 @@ body {
 }
 
 .main .form-container form textarea {
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-weight: 400;
   width: 99%;
   border: 2px #ccc solid;
@@ -382,11 +440,7 @@ body {
   resize: none;
   color: #000000;
   font-size: 18px;
-  background-image: url("../img/linedpaper330.jpg");
-  background-size: cover;
-  background-position: top;
-  overflow: hidden;
-  border: 0px solid #d0d0d0;
+  border-bottom: 2px solid #d0d0d0;
 }
 
 .main .form-container form .submit {

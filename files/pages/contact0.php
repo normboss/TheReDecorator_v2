@@ -29,7 +29,7 @@
             <h1>Contact Lucy</h1>
             <p>Make the most of what you already have</p>
         </div>
-
+        <br><br>
     </header>
 
     <main class="main">
