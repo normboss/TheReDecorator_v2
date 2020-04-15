@@ -24,7 +24,6 @@ body {
     background-position-x: center;
     position: relative;
 
-
     .logo {
         // border: 3px solid red;
         width: 920px;
@@ -282,6 +281,15 @@ body {
                     font-size: 18px * $column1-block1-font-size-mult;
                     color: #707070;
                     padding-bottom: 25px;
+                }
+            }
+
+            .lucy-image {
+                display: flex;
+                img {
+                    width: 50%;
+                    margin: 0 auto;
+                    // text-align: center;
                 }
             }
         }

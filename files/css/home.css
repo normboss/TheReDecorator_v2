@@ -566,6 +566,17 @@ body {
   padding-bottom: 25px;
 }
 
+.container .centering-block .column1 .lucy-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .centering-block .column1 .lucy-image img {
+  width: 50%;
+  margin: 0 auto;
+}
+
 .container .centering-block .column2 {
   margin: 0 auto;
   text-align: center;
