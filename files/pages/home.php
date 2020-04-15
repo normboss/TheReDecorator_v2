@@ -191,14 +191,14 @@ if (!session_id())
                     “Lucy Smith replaced some very worn slipcovers for us and did a meticulous job;
                     the result looks like we acquired new furniture! I recommend her highly.” ~~~ <br>
                     Brinna, Bremen Long Island, <br><br>
+                    <div id="more1">
+                        <p>
 
                     MEHi Lucy, Thank you so much--I LOVE MY CUSHION!!! your color choices are
                     brilliant! and it looks beautiful at night and in daylight--the chair feels
                     amazingly stable too- next--suggestions for redoing the rush bottom on the
                     largest of the old dining room chairs? <br>
                     Thank you, Ann <br><br>
-                    <div id="more1">
-                        <p>
 
                             Dear Lucy, <br>
                             I want to express my gratitude for the very capable assistance you provided
