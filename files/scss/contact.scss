@@ -18,69 +18,46 @@ body {
 }
 
 .header {
-    .menu1 {
-        // border: 3px solid red;
-        // position: absolute;
-        // top: 0px;
-        // left: 100%;
-        // transform: translate(-100%, 0%);
-        display: flex;
-        justify-content: flex-end;
-        padding-top: 25px;
-        ul {
-            display: flex;
-
-            font-family: "Open Sans";
-            font-size: 18px;
-            list-style: none;
-            li {
-                padding-right: 20px;
-                a {
-                    text-decoration: none;
-                    color: #000000;
-                }
-            }
-        }
-    }
 
     margin: 0 auto;
+    padding-bottom: 25px;
 
-    .block1 {
-        font-family: "Open Sans";
-        font-weight: bold;
-        font-size: 30px;
-        color: #7b7f83;
-        // .red-text {
-        //     color: red;
-        // }
-        // margin-bottom: 20px;;
-    }
-    .block2 {
-        // border: 3px solid red;
-        display: flex;
-        align-items: center;
-        h1 {
-            font-family: "Oswald", sans-serif;
-            font-size: 80px;
-            color: #f00e0e;
-        }
-        p {
-            border: 1px solid #707070;
-            font-weight: 400;
-            color: black;
-            font-size: 25px;
-            background-color: #f0dead;
-            padding: 10px 10px 13px 10px;
-            height: 60px;
-            margin-left: 40px;
-            margin-top: 10px;
-        }
-    }
-    .block3 {
-        color: #707070;
-        width: 60%;
-        font-size: 28px;
-    }
+    // .block1 {
+    //     font-family: "Open Sans";
+    //     font-weight: bold;
+    //     font-size: 30px;
+    //     color: #7b7f83;
+    //     // .red-text {
+    //     //     color: red;
+    //     // }
+    //     // margin-bottom: 20px;;
+    // }
+    // .block2 {
+    //     // border: 3px solid red;
+    //     display: flex;
+    //     align-items: center;
+    //     h1 {
+    //         font-family: "Oswald", sans-serif;
+    //         font-size: 80px;
+    //         color: #f00e0e;
+    //     }
+    //     p {
+    //         border: 1px solid #707070;
+    //         font-weight: 400;
+    //         color: black;
+    //         font-size: 25px;
+    //         background-color: #f0dead;
+    //         padding: 10px 10px 13px 10px;
+    //         height: 60px;
+    //         margin-left: 40px;
+    //         margin-top: 10px;
+    //     }
+    // }
+    // .block3 {
+    //     color: #707070;
+    //     width: 60%;
+    //     font-size: 28px;
+    // }
 }
 
 .main {

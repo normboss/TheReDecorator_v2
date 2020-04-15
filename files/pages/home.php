@@ -22,13 +22,15 @@ if (!session_id())
     <!-- <h1>hello world</h1> -->
     <header class="header">
 
-        <nav class="menu">
+    <?php     require '../inc/menu.php';     ?>
+
+        <!-- <nav class="menu1">
             <ul>
                 <li><a href="home.php">HOME</a></li>
                 <li><a href="slipcovers.php">SLIPCOVERS</a></li>
                 <li><a href="contact.php">CONTACT</a></li>
             </ul>
-        </nav>
+        </nav> -->
 
         <div class="logo">
             <h1>The <span class="red-text">Re</span>decorator</h1>

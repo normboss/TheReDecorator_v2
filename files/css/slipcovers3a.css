@@ -106,6 +106,25 @@ body * {
   }
 }
 
+body {
+  margin: 0 auto;
+  font-family: "Open Sans", sans-serif;
+  margin: 0 auto;
+  max-width: 1400px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.red-text {
+  color: red;
+}
+
 .header .menu1 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -140,115 +159,6 @@ body * {
   }
 }
 
-.block1 h2 {
-  font-size: 30px;
-  color: #7B7F83;
-}
-
-@media screen and (max-width: 400px) {
-  .block1 h2 {
-    font-size: 20px;
-  }
-}
-
-.block2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-@media screen and (max-width: 900px) {
-  .block2 {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-}
-
-.block2 h1 {
-  font-family: "Oswald", sans-serif;
-  font-size: 80px;
-  color: #f00e0e;
-}
-
-@media screen and (max-width: 900px) {
-  .block2 h1 {
-    font-size: 10vw;
-  }
-}
-
-@media screen and (max-width: 450px) {
-  .block2 h1 {
-    font-size: 40px;
-  }
-}
-
-.block2 p {
-  border: 1px solid #707070;
-  font-weight: 400;
-  color: black;
-  font-size: 25px;
-  background-color: #f0dead;
-  padding: 10px 10px 13px 10px;
-  height: 60px;
-  margin-left: 40px;
-  margin-top: 10px;
-}
-
-@media screen and (max-width: 900px) {
-  .block2 p {
-    margin-left: 10px;
-  }
-}
-
-@media screen and (max-width: 900px) {
-  .block2 p {
-    font-size: 4vw;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .block2 p {
-    font-size: 15px;
-    margin-left: 0;
-    margin-right: 0;
-  }
-}
-
-.block3 {
-  color: #707070;
-  font-size: 28px;
-}
-
-@media screen and (max-width: 500px) {
-  .block3 {
-    font-size: 22px;
-  }
-}
-
-body {
-  margin: 0 auto;
-  font-family: "Open Sans", sans-serif;
-  margin: 0 auto;
-  max-width: 1400px;
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.red-text {
-  color: red;
-}
-
 .container {
   margin-top: 50px;
   width: 100%;
@@ -270,7 +180,98 @@ body {
   padding-right: 10px;
 }
 
+.container .outer-block .block1 h2 {
+  font-size: 30px;
+  color: #7B7F83;
+}
+
+@media screen and (max-width: 400px) {
+  .container .outer-block .block1 h2 {
+    font-size: 20px;
+  }
+}
+
+.container .outer-block .block2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (max-width: 900px) {
+  .container .outer-block .block2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.container .outer-block .block2 h1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 80px;
+  color: #f00e0e;
+}
+
+@media screen and (max-width: 900px) {
+  .container .outer-block .block2 h1 {
+    font-size: 10vw;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .container .outer-block .block2 h1 {
+    font-size: 40px;
+  }
+}
+
+.container .outer-block .block2 p {
+  border: 1px solid #707070;
+  font-weight: 400;
+  color: black;
+  font-size: 25px;
+  background-color: #f0dead;
+  padding: 10px 10px 13px 10px;
+  height: 60px;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 900px) {
+  .container .outer-block .block2 p {
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .container .outer-block .block2 p {
+    font-size: 4vw;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .container .outer-block .block2 p {
+    font-size: 15px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+.container .outer-block .block3 {
+  color: #707070;
+  font-size: 28px;
+}
+
+@media screen and (max-width: 500px) {
+  .container .outer-block .block3 {
+    font-size: 22px;
+  }
+}
+
 .container .upper-block {
+  border: 3px solid blue;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -501,4 +502,4 @@ body {
   color: #707070;
   font-size: 20px;
 }
-/*# sourceMappingURL=slipcovers.css.map */
+/*# sourceMappingURL=slipcovers3a.css.map */

@@ -234,7 +234,7 @@ body {
   margin: 0 auto;
   font-family: "Open Sans", sans-serif;
   margin: 0 auto;
-  max-width: 1000px;
+  max-width: 1400px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -249,175 +249,196 @@ body {
   color: red;
 }
 
-.header {
-  margin: 0 auto;
-  padding-bottom: 25px;
-}
-
-.main {
-  margin: 0 auto;
-}
-
-.main img {
-  margin-bottom: 20px;
-}
-
-.main .form-container {
-  width: 100%;
-  height: 800px;
-  border: 1px solid #707070;
-  text-align: left;
-  font-family: "Open Sans";
-  font-size: 14px;
-  min-width: 250px;
+.header .menu1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-top: 25px;
+}
+
+.header .menu1 ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: "Open Sans";
+  font-size: 18px;
+  list-style: none;
+}
+
+.header .menu1 ul li {
+  padding-right: 20px;
+}
+
+.header .menu1 ul li a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.header .block1 {
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-size: 30px;
+  color: #7b7f83;
+}
+
+.header .block2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-top: 20px;
 }
 
-.main .form-container .text-block {
-  font-size: 18px;
-  text-align: left;
-  width: 70%;
+.header .block2 h1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 80px;
+  color: #f00e0e;
 }
 
-.main .form-container form {
-  height: 500px;
-  width: 70%;
-  padding-top: 25px;
-  border: 0px solid blue;
-  text-align: left;
+.header .block2 p {
+  border: 1px solid #707070;
+  font-weight: 400;
+  color: black;
+  font-size: 25px;
+  background-color: #f0dead;
+  padding: 10px 10px 13px 10px;
+  height: 60px;
+  margin-left: 40px;
+  margin-top: 10px;
 }
 
-.main .form-container form .diagnostic {
-  color: red;
-  font-weight: bold;
-  font-style: italic;
+.header .block3 {
+  color: #707070;
+  width: 60%;
+  font-size: 28px;
 }
 
-.main .form-container form textarea {
-  height: 300px;
+.container {
+  margin-top: 50px;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.container .centering-block {
+  margin: 0 auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  justify-items: center;
+  -webkit-column-gap: 25px;
+          column-gap: 25px;
+  min-height: 500px;
+  position: relative;
+}
+
+@media screen and (max-width: 1000px) {
+  .container .centering-block {
+    -webkit-column-gap: 15px;
+            column-gap: 15px;
+  }
+}
+
+.container .centering-block .column {
+  width: 80%;
   height: auto;
-  /*width: 400px;*/
+  margin: 0 auto;
+}
+
+.container .centering-block .column img {
   width: 100%;
 }
 
-.main .form-container form label {
-  width: auto;
-  text-align: left;
-  font-style: italic;
-  display: block;
-  padding-top: 5px;
-  font-size: 18px;
+.container .centering-block .column .red-text {
+  color: red;
+}
+
+.container .centering-block .column .column-copy-block {
+  border: 3px solid red;
+  height: 250px;
+}
+
+.container .centering-block .column .column-copy-block .column-heading {
+  font-family: 600;
+  font-size: 50px;
+  text-align: center;
+  color: #7b7f83;
+}
+
+.container .centering-block .column .column-copy-block .column-copy {
   color: #707070;
-  line-height: normal;
+  font-size: 20px;
+  line-height: 2;
 }
 
-.main .form-container form .field-block {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-bottom: 20px;
-  width: auto;
+.sliderWrapper {
+  position: relative;
+  white-space: nowrap;
+  margin: 50px auto 0 auto;
+  overflow: hidden;
 }
 
-.main .form-container form .field-block input {
-  font-size: 18px;
-  background-image: url("../img/linedpaper330.jpg");
-  background-size: cover;
-  background-position: top;
-  border: 0px solid #d0d0d0;
+.sliderWrapper div {
+  position: relative;
 }
 
-.main .form-container form .contact-field label {
-  width: 250px;
+.sliderWrapper .nav {
+  margin: 10px auto 0 auto;
+  width: 530px;
 }
 
-.main .form-container form .contact-field input {
-  font-size: 18px;
-  background-image: url("../img/linedpaper330.jpg");
-  background-size: cover;
-  background-position: top;
+.sliderWrapper .nav .button {
+  border: 3px solid red;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #fff;
+  display: inline-block;
+  cursor: pointer;
 }
 
-.main .form-container form .description-field {
+.sliderWrapper .nav .button:hover {
+  background-color: #ffcc00;
+}
+
+.sliderWrapper .nav .buttonRight {
+  position: absolute;
+  top: -100px;
+  left: 20%;
+}
+
+.sliderWrapper .nav .buttonLeft {
+  position: absolute;
+  top: -100px;
+  left: 5%;
+}
+
+.sliderWrapper .nav .buttonRight {
+  float: right;
+}
+
+.sliderWrapper .nav .buttonLeft {
+  float: left;
+}
+
+.trailer {
+  margin: 0 auto;
+  width: 70%;
+  margin-bottom: 50px;
+}
+
+.trailer .heading {
+  color: #0c0d0d;
+  font-size: 60px;
+  margin-bottom: 15px;
+}
+
+.trailer .copy {
+  color: #707070;
   font-size: 20px;
 }
-
-.main .form-container form .description-field label {
-  width: 500px;
-  height: 50px;
-}
-
-.main .form-container form .question-field label {
-  width: 500px;
-}
-
-.main .form-container form input {
-  width: 99%;
-  border: 0px;
-  background-color: #fff;
-  padding: 5px;
-  margin-bottom: 10px;
-  color: #000000;
-  font-size: 18px;
-}
-
-.main .form-container form textarea {
-  font-family: 'Open Sans';
-  font-weight: 400;
-  width: 99%;
-  border: 2px #ccc solid;
-  background-color: #fff;
-  border-bottom: 1px #707070 solid;
-  padding: 5px;
-  resize: none;
-  color: #000000;
-  font-size: 18px;
-  background-image: url("../img/linedpaper330.jpg");
-  background-size: cover;
-  background-position: top;
-  overflow: hidden;
-  border: 0px solid #d0d0d0;
-}
-
-.main .form-container form .submit {
-  width: 50%;
-  /*margin: 10px 0 20px 0;*/
-  cursor: pointer;
-  color: #444;
-  color: red;
-  font: 16px "Oswald", Verdana, Helvetica, sans-serif;
-  font-weight: normal;
-  padding: 2px 18px;
-  text-decoration: none;
-  background-color: #f8f8f8;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f8f8f8), to(#d8d8d8));
-  background: linear-gradient(#f8f8f8, #d8d8d8);
-  border: solid 1px #d8d8d8;
-  border-radius: 5px;
-}
-
-.main .form-container form .submit:hover {
-  text-decoration: none;
-  color: #fff;
-  background-color: #7b88c5;
-  background: -webkit-gradient(linear, left top, left bottom, from(#7b88c5), to(#435299));
-  background: linear-gradient(#7b88c5, #435299);
-  border: solid 1px #435299;
-  border-radius: 5px;
-}
-
-.main .form-container form .button-block {
-  margin: 0 auto;
-  text-align: center;
-}
-/*# sourceMappingURL=contact.css.map */
+/*# sourceMappingURL=slipcovers1.css.map */

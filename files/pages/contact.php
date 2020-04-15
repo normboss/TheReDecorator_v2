@@ -15,14 +15,18 @@
 <body>
 
     <header class="header">
-        <nav class="menu1">
+
+    <?php     require '../inc/menu.php';     ?>
+
+        <!-- <nav class="menu1">
             <ul>
                 <li><a href="home.php">HOME</a></li>
                 <li><a href="slipcovers.php">SLIPCOVERS</a></li>
                 <li><a href="contact.php">CONTACT</a></li>
             </ul>
-        </nav>
+        </nav> -->
         <br><br>
+        
         <div class="block1">
             <h2>The <span class="red-text">Re</span>decorator</h2>
         </div>
