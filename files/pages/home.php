@@ -212,7 +212,11 @@ if (!session_id())
                             Very truly yours, Susan<br><br>
                         </p>
                     </div>
-                    <button onclick="myFunction1()" id="myBtn1">Read more</button>
+                    <!-- <button onclick="myFunction1()" id="myBtn1">Read more</button> -->
+                    <div class="more-button">
+                        <button id="myBtn1" class="button1" onclick="myFunction1()">Read More</button>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -225,17 +229,17 @@ if (!session_id())
         var moreText1 = document.getElementById("more1");
         var btnText1 = document.getElementById("myBtn1");
         var col3 = document.getElementById("column3");
-        btnText1.innerHTML = "Read more";
+        btnText1.innerHTML = "Read More";
         moreText1.style.display = "none";
         col3.style.height = "auto";
 
         function myFunction1() {
             if (moreText1.style.display === "inline") {
-                btnText1.innerHTML = "Read more";
+                btnText1.innerHTML = "Read More";
                 moreText1.style.display = "none";
                 col3.style.height = "auto";
             } else {
-                btnText1.innerHTML = "Read less";
+                btnText1.innerHTML = "Read Less";
                 moreText1.style.display = "inline";
                 col3.style.height = "auto";
             }

@@ -677,4 +677,13 @@ body {
 .container .centering-block .column3-block3 {
   padding: 25px;
 }
+
+.container .centering-block .column3 .more-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
 /*# sourceMappingURL=home.css.map */
