@@ -194,14 +194,14 @@ if (!session_id())
                     I recommend her highly.” <br>
                     Brinna, Bremen Long Island, ME <br>
                     <br>
-                    Hi Lucy,<br>
+                     <div id="more1">
+                        <p>
+                        Hi Lucy,<br>
                     Thank you so much--I LOVE MY CUSHION!!! your color choices are brilliant! and it looks beautiful 
                     at night and in daylight--the chair feels amazingly stable too- next--suggestions for redoing the 
                     rush bottom on the largest of the old dining room chairs?<br>
                      Thank you, Ann<br>
                      <br>
-                     <div id="more1">
-                        <p>
                      Dear Lucy, <br>
                     I want to express my gratitude for the very capable assistance you provided when
                     I decided to redecorate my home. I enjoyed hearing your creative suggestions and am so glad 
