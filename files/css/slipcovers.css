@@ -166,6 +166,7 @@ body * {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    padding-bottom: 25px;
   }
 }
 
@@ -491,14 +492,92 @@ body {
   margin-bottom: 50px;
 }
 
+@media screen and (max-width: 800px) {
+  .trailer {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .trailer {
+    width: 90%;
+  }
+}
+
 .trailer .heading {
-  color: #0c0d0d;
+  color: #707070;
   font-size: 60px;
   margin-bottom: 15px;
+}
+
+@media screen and (max-width: 800px) {
+  .trailer .heading {
+    font-size: 45px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .trailer .heading {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .trailer .heading {
+    font-size: 28px;
+  }
 }
 
 .trailer .copy {
   color: #707070;
   font-size: 20px;
+}
+
+@media screen and (max-width: 550px) {
+  .trailer .copy {
+    font-size: 16px;
+  }
+}
+
+.final-block {
+  margin-top: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+@media screen and (max-width: 500px) {
+  .final-block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.final-block-text {
+  color: #030303;
+  font-size: 20px;
+}
+
+.final-block-text .gray-text {
+  color: #707070;
+}
+
+.final-block-text p {
+  padding-top: 10px;
+  font-size: 20px;
+  color: #707070;
+}
+
+@media screen and (max-width: 500px) {
+  .final-block-button {
+    padding-top: 25px;
+  }
 }
 /*# sourceMappingURL=slipcovers.css.map */

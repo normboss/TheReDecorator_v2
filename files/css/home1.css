@@ -386,8 +386,9 @@ body {
 
 .container .centering-block {
   margin: 0 auto;
-  display: -ms-grid;
-  display: grid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -ms-grid-columns: 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
@@ -687,4 +688,4 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
 }
-/*# sourceMappingURL=home.css.map */
+/*# sourceMappingURL=home1.css.map */

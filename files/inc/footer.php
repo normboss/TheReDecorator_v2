@@ -15,3 +15,24 @@
         </div>
     </div>
 </footer>
+
+<script>
+        var moreText1 = document.getElementById("more1");
+        var btnText1 = document.getElementById("myBtn1");
+        var col3 = document.getElementById("column3");
+        btnText1.innerHTML = "Read More";
+        moreText1.style.display = "none";
+        col3.style.height = "auto";
+
+        function myFunction1() {
+            if (moreText1.style.display === "inline") {
+                btnText1.innerHTML = "Read More";
+                moreText1.style.display = "none";
+                col3.style.height = "auto";
+            } else {
+                btnText1.innerHTML = "Read Less";
+                moreText1.style.display = "inline";
+                col3.style.height = "auto";
+            }
+        }
+    </script>

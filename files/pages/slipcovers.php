@@ -16,7 +16,7 @@
 
     <header class="header">
 
-    <?php     require '../inc/menu.php';     ?>
+        <?php require '../inc/menu.php';     ?>
 
         <br><br>
     </header>
@@ -94,49 +94,49 @@
         <!-- block 2 -->
         <div class="photo-block">
 
-            <div class="column-image">
+            <div id="image1" class="column-image">
                 <img src="../img/piping.png" alt="">
             </div>
-            <div class="column-image">
-                <img src="../img/dining_red_cks72.png" alt="">
-            </div>
-            <div class="column-image">
-                <img src="../img/couch_flounce72.png" alt="">
-            </div>
-            <div class="column-image">
-                <img src="../img/tie_chair72.png" alt="">
-            </div>
-            <div class="column-image">
-                <img src="../img/before72.png" alt="">
-            </div>
-            <div class="column-image">
+            <div id="image2" class="column-image">
                 <img src="../img/back ties72.png" alt="">
             </div>
-            <div class="column-image">
-                <img src="../img/red chair72.png" alt="">
-            </div>
-            <div class="column-image">
-                <img src="../img/tack_back72.png" alt="">
-            </div>
-            <div class="column-image">
-                <img src="../img/camel_back72.png" alt="">
-            </div>
-            <div class="column-image">
-                <img src="../img/after72.png" alt="">
-            </div>
-            <div class="column-image">
+            <div id="image3" class="column-image">
                 <img src="../img/button_back.png" alt="">
             </div>
-            <div class="column-image">
+            <div id="image4" class="column-image">
+                <img src="../img/dining_red_cks72.png" alt="">
+            </div>
+            <div id="image5" class="column-image">
+                <img src="../img/red chair72.png" alt="">
+            </div>
+            <div id="image6" class="column-image">
                 <img src="../img/red_white_stripe72.png" alt="">
             </div>
-            <div class="column-image">
+            <div id="image7" class="column-image">
+                <img src="../img/couch_flounce72.png" alt="">
+            </div>
+            <div id="image8" class="column-image">
+                <img src="../img/tack_back72.png" alt="">
+            </div>
+            <div id="image9" class="column-image">
                 <img src="../img/gold_chair72.png" alt="">
             </div>
-            <div class="column-image">
+            <div id="image10" class="column-image">
+                <img src="../img/tie_chair72.png" alt="">
+            </div>
+            <div id="image11" class="column-image">
+                <img src="../img/camel_back72.png" alt="">
+            </div>
+            <div id="image12" class="column-image">
                 <img src="../img/lucys_couch72.png" alt="">
             </div>
-            <div class="column-image">
+            <div id="image13" class="column-image">
+                <img src="../img/before72.png" alt="">
+            </div>
+            <div id="image14" class="column-image">
+                <img src="../img/after72.png" alt="">
+            </div>
+            <div id="image15" class="column-image">
                 <img src="../img/studio_bench72.png" alt="">
             </div>
         </div>
@@ -154,7 +154,22 @@
             professionally finished product to enhance your space and be
             proud of for years to come. Call her today to set up an appointment.
         </div>
+
+        <div class="final-block">
+            <div class="final-block-text">
+                    <h2>The <span class="red-text">RE</span>decorator <span class="gray-text">Strategy:</span></h2>
+                    <p>
+                    <span class="red-text">RE</span>duce, <span class="red-text">RE</span>use and <span class="red-text">RE</span>arrange
+                    </p>
+            </div>
+            <div class="final-block-button">
+                <button class="button1" onclick="window.location.href = 'contact.php'">Contact Lucy</button>
+            </div>
+
+        </div>
+
     </div>
+
     <?php require '../inc/footer.php' ?>
 
 </body>

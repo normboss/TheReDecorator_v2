@@ -115,14 +115,14 @@ body {
                     // margin-top: 13px;
 
                     font-size: 18px;
-                    @include min-mixin(1000px) {
-                        background-image: url("../img/linedpaper330.jpg");
-                        background-size: cover;
-                        background-position: top;
-                    }
-                    @include max-mixin(1000px) {
+                    // @include min-mixin(1000px) {
+                    //     background-image: url("../img/linedpaper330.jpg");
+                    //     background-size: cover;
+                    //     background-position: top;
+                    // }
+                    // @include max-mixin(1000px) {
                         border-bottom: 2px solid #d0d0d0;
-                    }
+                    // }
                 }
             }
             .contact-field {
@@ -132,14 +132,14 @@ body {
                 input {
                     // border: 3px solid red;
                     font-size: 18px;
-                    @include min-mixin(1000px) {
-                        background-image: url("../img/linedpaper330.jpg");
-                        background-size: cover;
-                        background-position: top;
-                    }
-                    @include max-mixin(1000px) {
+                    // @include min-mixin(1000px) {
+                    //     background-image: url("../img/linedpaper330.jpg");
+                    //     background-size: cover;
+                    //     background-position: top;
+                    // }
+                    // @include max-mixin(1000px) {
                         border-bottom: 2px solid #d0d0d0;
-                    }
+                    // }
                 }
             }
 

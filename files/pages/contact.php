@@ -45,8 +45,6 @@
         <div class="form-container">
 
             <div class="text-block">
-                We enjoy meeting and working with people who love what they do.
-                <br>
                 <div class="spacer10"></div>
                 Let’s get started on your project.<br>
                 Please send me an email at lucy@theredecorator.com<br>
@@ -67,13 +65,13 @@
                 <input type="submit" name="submit" value="Send">
             </form> -->
 
-            <!-- <form method="post" class="contactform" action="https://www1.domain.com/scripts/formemail.bml" name="contactform"> -->
-            <form method="post" class="contactform" action="response.php" name="contactform">
+            <form method="post" class="contactform" action="https://www1.domain.com/scripts/formemail.bml" name="contactform">
+            <!-- <form method="post" class="contactform" action="response.php" name="contactform"> -->
 
                 <!--A hidden tag. This tag means it cannot be seen by your customers and tells the 
 form where to e-mail the contents of the form. -->
                 <!-- <input type="hidden" name="my_email" value="norm.bosse0@gmail.com"> -->
-                <input type="hidden" name="my_email" value="leck@midcoast.com">
+                <input type="hidden" name="my_email" value="info@alchemywebdesigns.com ">
 
                 <!--How to create an input field
     Create an input field for each piece of data you wish to collect

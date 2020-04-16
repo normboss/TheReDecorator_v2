@@ -11,7 +11,7 @@ if (!session_id())
     <title>The Redecorator - home</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="../css/home.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="../css/home1.css" media="screen" rel="stylesheet" type="text/css">
     <script src="//code.jquery.com/jquery-1.10.2.js"></script>
     <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon-16x16.png">
     <!-- <script src="https://kit.fontawesome.com/4503cd8997.js" crossorigin="anonymous"></script> -->
@@ -149,6 +149,10 @@ if (!session_id())
                 <div class="column2-block7 column2-block">
                     You deserve organized and beautiful surroundings
                 </div>
+            </div>
+
+            <!-- Column2a -->
+            <div class="column column3">
                 <div class="column1-block2">
                     <div class="column1-block2-center-block">
                         <span class="size1">Organize</span>
@@ -179,13 +183,13 @@ if (!session_id())
                     Lucy brings years of experience to every job and delivers excellent workmanship and a perfect fit. <br>
                     Suzette, Belfast, ME<br>
                     <br>
-                    I recommend Lucy’s work highly. She completed a slipcover for me quickly and made an ugly chair look decent. 
+                    I recommend Lucy’s work highly. She completed a slipcover for me quickly and made an ugly chair look decent.
                     <br>
                     The price was right and exactly what she had quoted. I’m happy with the results and especially happy to know and work with Lucy. <br>
-                    Joy Vaughan, South Bristol, ME 
+                    Joy Vaughan, South Bristol, ME
                     <br>
-                    Oh, Lucy! Your choice of fabrics is brilliant. The room is transformed by the these three slip covers! 
-                    Our favorite swivel rockers look so good everyone thinks they are new. Thank you again. 
+                    Oh, Lucy! Your choice of fabrics is brilliant. The room is transformed by the these three slip covers!
+                    Our favorite swivel rockers look so good everyone thinks they are new. Thank you again.
                     <br>
                     Jane, Damariscotta, ME
                     <br><br>
@@ -195,27 +199,27 @@ if (!session_id())
                     Brinna, Bremen Long Island, ME <br>
                     <br>
                     Hi Lucy,<br>
-                    Thank you so much--I LOVE MY CUSHION!!! your color choices are brilliant! and it looks beautiful 
-                    at night and in daylight--the chair feels amazingly stable too- next--suggestions for redoing the 
+                    Thank you so much--I LOVE MY CUSHION!!! your color choices are brilliant! and it looks beautiful
+                    at night and in daylight--the chair feels amazingly stable too- next--suggestions for redoing the
                     rush bottom on the largest of the old dining room chairs?<br>
-                     Thank you, Ann<br>
-                     <br>
-                     <div id="more1">
+                    Thank you, Ann<br>
+                    <br>
+                    <div id="more1">
                         <p>
-                     Dear Lucy, <br>
-                    I want to express my gratitude for the very capable assistance you provided when
-                    I decided to redecorate my home. I enjoyed hearing your creative suggestions and am so glad 
-                    I followed your advice for both my dining room and living room. The freshly painted walls compliment 
-                    the new furniture beautifully and I’m happy to have friends over to visit now. It was such a relief to 
-                    find someone with your abilities after my disappointing experience with a previous decorator. <br>
-                    Best o luck with your new venture and keep up the great work.<br>
-                    Very truly yours, Susan<br><br>
+                            Dear Lucy, <br>
+                            I want to express my gratitude for the very capable assistance you provided when
+                            I decided to redecorate my home. I enjoyed hearing your creative suggestions and am so glad
+                            I followed your advice for both my dining room and living room. The freshly painted walls compliment
+                            the new furniture beautifully and I’m happy to have friends over to visit now. It was such a relief to
+                            find someone with your abilities after my disappointing experience with a previous decorator. <br>
+                            Best o luck with your new venture and keep up the great work.<br>
+                            Very truly yours, Susan<br><br>
 
-                    MEHi Lucy, Thank you so much--I LOVE MY CUSHION!!! your color choices are
-                    brilliant! and it looks beautiful at night and in daylight--the chair feels
-                    amazingly stable too- next--suggestions for redoing the rush bottom on the
-                    largest of the old dining room chairs? <br>
-                    Thank you, Ann <br><br>
+                            MEHi Lucy, Thank you so much--I LOVE MY CUSHION!!! your color choices are
+                            brilliant! and it looks beautiful at night and in daylight--the chair feels
+                            amazingly stable too- next--suggestions for redoing the rush bottom on the
+                            largest of the old dining room chairs? <br>
+                            Thank you, Ann <br><br>
                         </p>
                     </div>
                     <!-- <button onclick="myFunction1()" id="myBtn1">Read more</button> -->
@@ -231,6 +235,26 @@ if (!session_id())
     <?php require '../inc/footer.php' ?>
 
 
+    <script>
+        var moreText1 = document.getElementById("more1");
+        var btnText1 = document.getElementById("myBtn1");
+        var col3 = document.getElementById("column3");
+        btnText1.innerHTML = "Read More";
+        moreText1.style.display = "none";
+        col3.style.height = "auto";
+
+        function myFunction1() {
+            if (moreText1.style.display === "inline") {
+                btnText1.innerHTML = "Read More";
+                moreText1.style.display = "none";
+                col3.style.height = "auto";
+            } else {
+                btnText1.innerHTML = "Read Less";
+                moreText1.style.display = "inline";
+                col3.style.height = "auto";
+            }
+        }
+    </script>
 
 </body>
 

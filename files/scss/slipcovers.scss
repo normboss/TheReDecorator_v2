@@ -1,5 +1,6 @@
 @import "common";
 
+
 body {
     // overflow: hidden;
     margin: 0 auto;
@@ -299,16 +300,63 @@ body {
     // border: 3px solid red;
     margin: 0 auto;
     width: 70%;
-    // height: 500px;
+    @include max-mixin(800px) {
+        width: 80%;
+    }
+    @include max-mixin(450px) {
+        width: 90%;
+    }
+        // height: 500px;
     margin-bottom: 50px;
 
     .heading {
-        color: #0c0d0d;
+        color: #707070;
         font-size: 60px;
+        @include max-mixin(800px) {
+            font-size: 45px;
+        }
+        @include max-mixin(550px) {
+            font-size: 35px;
+        }
+        @include max-mixin(380px) {
+            font-size: 28px;
+        }
         margin-bottom: 15px;
     }
     .copy {
         color: #707070;
         font-size: 20px;
+        @include max-mixin(550px) {
+            font-size: 16px;
+        }
+    }
+}
+
+.final-block {
+    margin-top: 25px;
+    display: flex;
+    @include max-mixin(500px) {
+        flex-direction: column;
+        align-items: center;
+    }
+    justify-content: space-around;
+    &-text {
+        color: #030303;
+        font-size: 20px;
+
+        .gray-text {
+            color: #707070;
+        }
+        p {
+            padding-top: 10px;
+            font-size: 20px;
+            color: #707070;
+        }
+    }
+    &-button {
+        @include max-mixin(500px) {
+            padding-top: 25px;
+        }
+
     }
 }

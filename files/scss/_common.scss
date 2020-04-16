@@ -138,12 +138,15 @@ body * {
         }
     }
 }
+
+
 .block2 {
     // border: 3px solid red;
     display: flex;
     align-items: center;
     @include max-mixin(900px) {
         flex-direction: column;
+        padding-bottom: 25px;;
     }
 
     h1 {
