@@ -8,7 +8,8 @@
         </div>
 
         <div class="footer-facebook">
-            <a href="https://facebook.com">
+        
+            <a href="https://www.facebook.com/lucy.k.smith/">
                 <img src="../img/social-fb.png" alt="Facebook">
             </a>
 
