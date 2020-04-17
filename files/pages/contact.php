@@ -70,8 +70,7 @@
 
                 <!--A hidden tag. This tag means it cannot be seen by your customers and tells the 
 form where to e-mail the contents of the form. -->
-                <!-- <input type="hidden" name="my_email" value="norm.bosse0@gmail.com"> -->
-                <input type="hidden" name="my_email" value="info@alchemywebdesigns.com ">
+                <input type="hidden" name="my_email" value="lucy@theredecorator.com">
 
                 <!--How to create an input field
     Create an input field for each piece of data you wish to collect
