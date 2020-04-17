@@ -113,9 +113,6 @@ if (!session_id())
                 <div class="column2-block1">
                     <h2>Custom Slipcovers!</h2>
                 </div>
-                <!-- <div class="column2-block2">
-                    <img src="../img/lucy_72.png" alt="">
-                </div> -->
                 <div class="column2-block3 column2-block">
                     Refresh your rooms with long wearing, washable slipcovers.
                 </div>

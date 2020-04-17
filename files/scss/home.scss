@@ -121,14 +121,13 @@ body {
     width: 100%;
     margin: 0 auto;
 
-
     .centering-block {
         // border: 3px solid red;
         margin: 0 auto;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        @include max-mixin(800px) {
-            grid-template-columns: 1fr 1fr ;
+        @include max-mixin(850px) {
+            grid-template-columns: 1fr 1fr;
         }
         @include max-mixin(500px) {
             grid-template-columns: 1fr;
@@ -140,9 +139,8 @@ body {
 
         // display: flex;
 
-
         @include max-mixin(1000px) {
-            column-gap: 15px;;
+            column-gap: 15px;
         }
 
         .column {
@@ -154,6 +152,9 @@ body {
 
             @include max-mixin(1400px) {
                 // width: 400px;
+            }
+            @include max-mixin(500px) {
+                border: none;
             }
 
             img {
@@ -207,7 +208,11 @@ body {
                 @include max-mixin(500px) {
                     padding-left: 0px;
                     padding-right: 0px;
-            }
+                }
+                @include max-mixin(850px) {
+                    margin-right: 10px;
+                    // width: 80%;
+                }
                 width: 100%;
                 background-color: #f0e3df;
 
@@ -224,7 +229,7 @@ body {
 
                     $font-size-adj: 2;
                     @include max-mixin(800px) {
-                        $font-size-adj: 1.5;   
+                        $font-size-adj: 1.5;
                     }
                     .size1 {
                         color: #f00e0e;
@@ -255,6 +260,9 @@ body {
                         color: #f00e0e;
                         line-height: 1.2;
                     }
+                }
+                @include max-mixin(850px) {
+                    // width: 95%;
                 }
             }
 
@@ -325,9 +333,12 @@ body {
                 }
             }
             &-block3 {
+                // border: 3px solid red;
+                text-align: center;
                 color: #707070;
                 font-size: 18px;
                 padding: 15px 10% 15px 22%;
+                padding: 15px 7.5%;
             }
             &-block4 {
                 padding: 10px;
@@ -359,10 +370,11 @@ body {
             // height: 900px;
             height: auto;
             width: 100%;
-            @include max-mixin(800px) {
-                width: 200%;
+            @include max-mixin(850px) {
+                width: 205%;
                 margin: 0 auto;
                 padding: 25px;
+                border: none;
             }
             @include max-mixin(500px) {
                 width: 100%;
@@ -372,7 +384,7 @@ body {
             #more1 {
                 display: none;
                 p {
-                    // border: 3px solid red; 
+                    // border: 3px solid red;
                 }
             }
 
@@ -387,12 +399,12 @@ body {
                 //     margin: 0 auto;
                 // }
             }
-            
+
             &-block2 {
                 text-align: center;
                 font-size: 50px;
                 @include max-mixin(1300px) {
-                font-size: 4.5vw; //50px;
+                    font-size: 4.5vw; //50px;
                 }
             }
             &-block3 {

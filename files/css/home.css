@@ -396,7 +396,7 @@ body {
   min-height: 500px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 850px) {
   .container .centering-block {
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
@@ -422,6 +422,12 @@ body {
   min-width: 100px;
   width: 100%;
   height: auto;
+}
+
+@media screen and (max-width: 500px) {
+  .container .centering-block .column {
+    border: none;
+  }
 }
 
 .container .centering-block .column img {
@@ -486,6 +492,12 @@ body {
   .container .centering-block .column1-block2 {
     padding-left: 0px;
     padding-right: 0px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .container .centering-block .column1-block2 {
+    margin-right: 10px;
   }
 }
 
@@ -605,9 +617,11 @@ body {
 }
 
 .container .centering-block .column2-block3 {
+  text-align: center;
   color: #707070;
   font-size: 18px;
   padding: 15px 10% 15px 22%;
+  padding: 15px 7.5%;
 }
 
 .container .centering-block .column2-block4 {
@@ -640,11 +654,12 @@ body {
   width: 100%;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 850px) {
   .container .centering-block .column3 {
-    width: 200%;
+    width: 205%;
     margin: 0 auto;
     padding: 25px;
+    border: none;
   }
 }
 
