@@ -52,7 +52,7 @@ if (!session_id())
         <div class="centering-block">
 
             <!-- Column1 -->
-            <div class="column column1">
+            <div class="column1">
                 <img src="../img/fabric_samples.png" alt="">
 
                 <div class="column1-block1">
@@ -62,24 +62,6 @@ if (!session_id())
                         over 35 years in the decorating field.
                     </p>
                 </div>
-
-                <!-- <div class="column1-block2">
-                    <div class="column1-block2-center-block">
-                        <span class="size1">Organize</span>
-                        <span class="size2">and</span>
-                        <br>
-                        <span class="size3">simplify </span>
-                        <br>
-                        <span class="size2">the furniture and <br>accessories<br> of your </span>
-                        <span class="size4">home</span>
-                        <span class="size2">for</span><br>
-                        <span class="size5">your lifestyle</span>,<br>
-                        <span class="size6">comfort</span>,<br>
-                        <span class="size2">and pocketbook.</span>
-                    </div>
-                </div> -->
-                <!-- <img src="../img/lucy_72.png" alt="" style="width: 50%; margin: 0 auto;"> -->
-
                 <div class="lucy-image">
                     <img src="../img/lucy_72.png" alt="">
                 </div>
@@ -125,104 +107,99 @@ if (!session_id())
             </div>
 
             <!-- Column2 -->
-            <div class="column column2">
-                <img src="../img/blue_plaid_flounce72.png" alt="">
-                <div class="column2-block1">
-                    <h2>Custom Slipcovers!</h2>
-                </div>
-                <!-- <div class="column2-block2">
-                    <img src="../img/lucy_72.png" alt="">
-                </div> -->
-                <div class="column2-block3 column2-block">
-                    Refresh your rooms with long wearing, washable slipcovers.
-                </div>
-                <div class="column2-block4 column2-block">
-                    <button class="button1" onclick="window.location.href = 'slipcovers.php'">Slipcovers</button>
-                </div>
-                <div class="column2-block5 column2-block">
-                    Why spend another day In a space that you don’t&nbsp;Love?
-                </div>
-                <div class="column2-block6 column2-block">
-                    <button class="button1" onclick="window.location.href = 'contact.php'">Contact Lucy</button>
+            <div class="column2">
+                ` <div class="column2a">
+                    <img src="../img/blue_plaid_flounce72.png" alt="">
+                    <div class="column2-block1">
+                        <h2>Custom Slipcovers!</h2>
+                    </div>
+                    <div class="column2-block3 column2-block">
+                        Refresh your rooms with long wearing, washable slipcovers.
+                    </div>
+                    <div class="column2-block4 column2-block">
+                        <button class="button1" onclick="window.location.href = 'slipcovers.php'">Slipcovers</button>
+                    </div>
+                    <div class="column2-block5 column2-block">
+                        Why spend another day In a space that you don’t&nbsp;Love?
+                    </div>
+                    <div class="column2-block6 column2-block">
+                        <button class="button1" onclick="window.location.href = 'contact.php'">Contact Lucy</button>
+
+                    </div>
+                    <div class="column2-block7 column2-block">
+                        You deserve organized and beautiful surroundings
+                    </div>
 
                 </div>
-                <div class="column2-block7 column2-block">
-                    You deserve organized and beautiful surroundings
-                </div>
-            </div>
-
-            <!-- Column2a -->
-            <div class="column column3">
-                <div class="column1-block2">
-                    <div class="column1-block2-center-block">
-                        <span class="size1">Organize</span>
-                        <span class="size2">and</span>
-                        <br>
-                        <span class="size3">simplify </span>
-                        <br>
-                        <span class="size2">the furniture and <br>accessories<br> of your </span>
-                        <span class="size4">home</span>
-                        <span class="size2">for</span><br>
-                        <span class="size5">your lifestyle</span>,<br>
-                        <span class="size6">comfort</span>,<br>
-                        <span class="size2">and pocketbook.</span>
+                <div class="column2b">
+                    <div class="column1-block2">
+                        <div class="column1-block2-center-block">
+                            <span class="size1">Organize</span>
+                            <span class="size2">and</span>
+                            <br>
+                            <span class="size3">simplify </span>
+                            <br>
+                            <span class="size2">the furniture and <br>accessories<br> of your </span>
+                            <span class="size4">home</span>
+                            <span class="size2">for</span><br>
+                            <span class="size5">your lifestyle</span>,<br>
+                            <span class="size6">comfort</span>,<br>
+                            <span class="size2">and pocketbook.</span>
+                        </div>
                     </div>
                 </div>
             </div>
 
             <!-- Column3 -->
-            <div class="column column3">
+            <div class="column3" style="margin-left: 20px;">
                 <img src="../img/kitchen.png" alt="">
-                <!-- <div class="column3-block1 column3-block">
-                </div> -->
                 <div class="column3-block2 column3-block">
                     Testimonials
                 </div>
-
-                <div class="column3-block3 column3-block">
-                    Lucy brings years of experience to every job and delivers excellent workmanship and a perfect fit. <br>
+                Lucy brings years of experience to every job and delivers excellent workmanship and a perfect fit. <br>
                     Suzette, Belfast, ME<br>
+
                     <br>
-                    I recommend Lucy’s work highly. She completed a slipcover for me quickly and made an ugly chair look decent.
+                    I recommend Lucy’s work highly. She completed a slipcover for me quickly and made an ugly chair look decent. 
                     <br>
                     The price was right and exactly what she had quoted. I’m happy with the results and especially happy to know and work with Lucy. <br>
-                    Joy Vaughan, South Bristol, ME
+                    Joy Vaughan, South Bristol, ME<br>
                     <br>
-                    Oh, Lucy! Your choice of fabrics is brilliant. The room is transformed by the these three slip covers!
-                    Our favorite swivel rockers look so good everyone thinks they are new. Thank you again.
+
+                    Oh, Lucy! Your choice of fabrics is brilliant. The room is transformed by the these three slip covers! 
+                    Our favorite swivel rockers look so good everyone thinks they are new. Thank you again. 
                     <br>
                     Jane, Damariscotta, ME
-                    <br><br>
-                    “Lucy Smith replaced some very worn slipcovers for us and did a meticulous job;
-                    the result looks like we acquired new furniture! <br>
-                    I recommend her highly.” <br>
-                    Brinna, Bremen Long Island, ME <br>
-                    <br>
-                    Hi Lucy,<br>
-                    Thank you so much--I LOVE MY CUSHION!!! your color choices are brilliant! and it looks beautiful
-                    at night and in daylight--the chair feels amazingly stable too- next--suggestions for redoing the
-                    rush bottom on the largest of the old dining room chairs?<br>
-                    Thank you, Ann<br>
-                    <br>
-                    <div id="more1">
-                        <p>
-                            Dear Lucy, <br>
-                            I want to express my gratitude for the very capable assistance you provided when
-                            I decided to redecorate my home. I enjoyed hearing your creative suggestions and am so glad
-                            I followed your advice for both my dining room and living room. The freshly painted walls compliment
-                            the new furniture beautifully and I’m happy to have friends over to visit now. It was such a relief to
-                            find someone with your abilities after my disappointing experience with a previous decorator. <br>
-                            Best o luck with your new venture and keep up the great work.<br>
-                            Very truly yours, Susan<br><br>
 
-                            MEHi Lucy, Thank you so much--I LOVE MY CUSHION!!! your color choices are
-                            brilliant! and it looks beautiful at night and in daylight--the chair feels
-                            amazingly stable too- next--suggestions for redoing the rush bottom on the
-                            largest of the old dining room chairs? <br>
-                            Thank you, Ann <br><br>
+                    <br><br>
+                    Lucy Smith replaced some very worn slipcovers for us and did a meticulous job;
+                    the result looks like we acquired new furniture! <br>
+                    I recommend her highly. <br>
+                    Brinna, Bremen Long Island, ME <br>
+                    
+                    <br>
+                        Hi Lucy,<br>
+                    Thank you so much--I LOVE MY CUSHION!!! your color choices are brilliant! and it looks beautiful 
+                    at night and in daylight--the chair feels amazingly stable too- next--suggestions for redoing the 
+                    rush bottom on the largest of the old dining room chairs?<br>
+                     Thank you, Ann<br>
+                     <br>
+
+                     <div id="more1">
+                        <p>
+
+                     Dear Lucy, <br>
+                    I want to express my gratitude for the very capable assistance you provided when
+                    I decided to redecorate my home. I enjoyed hearing your creative suggestions and am so glad 
+                    I followed your advice for both my dining room and living room. The freshly painted walls compliment 
+                    the new furniture beautifully and I’m happy to have friends over to visit now. It was such a relief to 
+                    find someone with your abilities after my disappointing experience with a previous decorator. <br>
+                    Best o luck with your new venture and keep up the great work.<br>
+                    Very truly yours, Susan<br><br>
+
                         </p>
                     </div>
-                    <!-- <button onclick="myFunction1()" id="myBtn1">Read more</button> -->
+                <div class="column3-block3 column3-block">
                     <div class="more-button">
                         <button id="myBtn1" class="button1" onclick="myFunction1()">Read More</button>
                     </div>

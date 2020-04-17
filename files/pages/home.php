@@ -33,7 +33,7 @@ if (!session_id())
         </nav> -->
 
         <div class="logo">
-            <h1>The <span class="red-text">Re</span>decorator</h1>
+            <h1>The <span class="red-text">RE</span>decorator</h1>
             <p>Make the most of what you already have</p>
         </div>
 
@@ -56,9 +56,9 @@ if (!session_id())
                 <img src="../img/fabric_samples.png" alt="">
 
                 <div class="column1-block1">
-                    <h3>The <span class="red-text">Re</span>decorator</h3>
+                    <h3>The <span class="red-text">RE</span>decorator</h3>
                     <p>
-                        Lucy Smith, the <span class="red-text">Re</span>decorator, has
+                        Lucy Smith, the <span class="red-text">RE</span>decorator, has
                         over 35 years in the decorating field.
                     </p>
                 </div>
@@ -84,13 +84,13 @@ if (!session_id())
                         Give new life to what you already own.
                     </div>
                     <div class="column1-block3-small-heading column1-block">
-                        <span class="red-text">Re</span>Arrange
+                        <span class="red-text">RE</span>Arrange
                     </div>
                     <div class="column1-block3-copy column1-block">
                         Items you already own.
                     </div>
                     <div class="column1-block3-small-heading column1-block">
-                        <span class="red-text">Re</span>Paint
+                        <span class="red-text">RE</span>Paint
                     </div>
                     <div class="column1-block3-copy column1-block">
                         Coordinate your project with color
@@ -161,30 +161,36 @@ if (!session_id())
                 <div class="column3-block3 column3-block">
                     Lucy brings years of experience to every job and delivers excellent workmanship and a perfect fit. <br>
                     Suzette, Belfast, ME<br>
+
                     <br>
                     I recommend Lucy’s work highly. She completed a slipcover for me quickly and made an ugly chair look decent. 
                     <br>
                     The price was right and exactly what she had quoted. I’m happy with the results and especially happy to know and work with Lucy. <br>
-                    Joy Vaughan, South Bristol, ME 
+                    Joy Vaughan, South Bristol, ME<br>
                     <br>
+
                     Oh, Lucy! Your choice of fabrics is brilliant. The room is transformed by the these three slip covers! 
                     Our favorite swivel rockers look so good everyone thinks they are new. Thank you again. 
                     <br>
                     Jane, Damariscotta, ME
+
                     <br><br>
-                    “Lucy Smith replaced some very worn slipcovers for us and did a meticulous job;
+                    Lucy Smith replaced some very worn slipcovers for us and did a meticulous job;
                     the result looks like we acquired new furniture! <br>
-                    I recommend her highly.” <br>
+                    I recommend her highly. <br>
                     Brinna, Bremen Long Island, ME <br>
+                    
                     <br>
-                     <div id="more1">
-                        <p>
                         Hi Lucy,<br>
                     Thank you so much--I LOVE MY CUSHION!!! your color choices are brilliant! and it looks beautiful 
                     at night and in daylight--the chair feels amazingly stable too- next--suggestions for redoing the 
                     rush bottom on the largest of the old dining room chairs?<br>
                      Thank you, Ann<br>
                      <br>
+
+                     <div id="more1">
+                        <p>
+
                      Dear Lucy, <br>
                     I want to express my gratitude for the very capable assistance you provided when
                     I decided to redecorate my home. I enjoyed hearing your creative suggestions and am so glad 
@@ -194,11 +200,6 @@ if (!session_id())
                     Best o luck with your new venture and keep up the great work.<br>
                     Very truly yours, Susan<br><br>
 
-                    MEHi Lucy, Thank you so much--I LOVE MY CUSHION!!! your color choices are
-                    brilliant! and it looks beautiful at night and in daylight--the chair feels
-                    amazingly stable too- next--suggestions for redoing the rush bottom on the
-                    largest of the old dining room chairs? <br>
-                    Thank you, Ann <br><br>
                         </p>
                     </div>
                     <!-- <button onclick="myFunction1()" id="myBtn1">Read more</button> -->

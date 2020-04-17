@@ -26,7 +26,7 @@
     <main class="container">
         <div class="outer-block">
             <div class="block1">
-                <h2>The <span class="red-text">Re</span>decorator Strategy:</h2>
+                <h2>The <span class="red-text">RE</span>decorator Strategy:</h2>
             </div>
 
             <div class="block2">
@@ -35,7 +35,7 @@
             </div>
 
             <div class="block3">
-                The <span class="red-text">Re</span>decorator Strategy: Update and refresh your favorite furniture!
+                The <span class="red-text">RE</span>decorator Strategy: Update and refresh your favorite furniture!
                 Lucy fabricates custom fit long wearing washable slipcovers.
             </div>
         </div>

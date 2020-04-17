@@ -2,9 +2,9 @@
 
     <div class="footer-content">
         <div class="footer-text">
-            <h3 class="logo">The <span class="red-text">Re</span>decorator</h3>
+            <h3 class="logo">The <span class="red-text">RE</span>decorator</h3>
             <h3>Lucy@theredecorator.com</h3>
-            <h3>All rights reserved The <span class="red-text">Re</span>decorator.com</h3>
+            <h3>All rights reserved The <span class="red-text">RE</span>decorator.com</h3>
         </div>
 
         <div class="footer-facebook">

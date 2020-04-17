@@ -389,37 +389,31 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-grid-columns: 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr;
-  justify-items: center;
-  -webkit-column-gap: 25px;
-          column-gap: 25px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   min-height: 500px;
 }
 
-@media screen and (max-width: 800px) {
-  .container .centering-block {
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
-  }
+.container .centering-block .column1, .container .centering-block .column2a, .container .centering-block .column3 {
+  border: 2px solid #707070;
 }
 
-@media screen and (max-width: 500px) {
-  .container .centering-block {
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
-  }
+.container .centering-block .column1, .container .centering-block .column2a, .container .centering-block .column2b, .container .centering-block .column2x {
+  margin-right: 20px;
 }
 
-@media screen and (max-width: 1000px) {
-  .container .centering-block {
-    -webkit-column-gap: 15px;
-            column-gap: 15px;
-  }
+.container .centering-block .column1, .container .centering-block .column2, .container .centering-block .column2a, .container .centering-block .column2b, .container .centering-block .column3 {
+  width: 400px;
+}
+
+.container .centering-block .column2 {
+  margin-top: 20px;
 }
 
 .container .centering-block .column {
-  border: 2px solid #707070;
   min-width: 100px;
   width: 100%;
   height: auto;
@@ -582,8 +576,15 @@ body {
 .container .centering-block .column2 {
   margin: 0 auto;
   text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   height: auto;
-  padding-top: 25px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding-top: 0;
 }
 
 .container .centering-block .column2 img {
@@ -634,11 +635,16 @@ body {
   padding: 8px 15%;
 }
 
+.container .centering-block .column2 .column2b {
+  width: 400px;
+}
+
 .container .centering-block .column3 {
   color: #707070;
   font-size: 18px;
   height: auto;
-  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 @media screen and (max-width: 800px) {
