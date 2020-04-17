@@ -63,25 +63,8 @@ if (!session_id())
                     </p>
                 </div>
 
-                <!-- <div class="column1-block2">
-                    <div class="column1-block2-center-block">
-                        <span class="size1">Organize</span>
-                        <span class="size2">and</span>
-                        <br>
-                        <span class="size3">simplify </span>
-                        <br>
-                        <span class="size2">the furniture and <br>accessories<br> of your </span>
-                        <span class="size4">home</span>
-                        <span class="size2">for</span><br>
-                        <span class="size5">your lifestyle</span>,<br>
-                        <span class="size6">comfort</span>,<br>
-                        <span class="size2">and pocketbook.</span>
-                    </div>
-                </div> -->
-                <!-- <img src="../img/lucy_72.png" alt="" style="width: 50%; margin: 0 auto;"> -->
-
                 <div class="lucy-image">
-                    <img src="../img/lucy_72.png" alt="">
+                    <img src="../img/lucy_72.png" alt="" style="width: 50%; height: 50%;">
                 </div>
 
                 <div class="column1-block3 column1-block">
@@ -89,16 +72,16 @@ if (!session_id())
                         My Solution
                     </div>
                     <div class="column1-block3-small-heading column1-block">
-                        <span class="red-text">Re</span>duce
+                        <span class="red-text">RE</span>duce
                     </div>
                     <div class="column1-block3-copy column1-block">
                         Eliminate clutter
                     </div>
                     <div class="column1-block3-small-heading column1-block">
-                        <span class="red-text">Re</span>Use
+                        <span class="red-text">RE</span>Use
                     </div>
                     <div class="column1-block3-copy column1-block">
-                        Give new life to what yu already own.
+                        Give new life to what you already own.
                     </div>
                     <div class="column1-block3-small-heading column1-block">
                         <span class="red-text">Re</span>Arrange
