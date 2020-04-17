@@ -163,14 +163,14 @@ if (!session_id())
                     Suzette, Belfast, ME<br>
 
                     <br>
-                    I recommend Lucy’s work highly. She completed a slipcover for me quickly and made an ugly chair look decent. 
+                    I recommend Lucy’s work highly. She completed a slipcover for me quickly and made an ugly chair look decent.
                     <br>
                     The price was right and exactly what she had quoted. I’m happy with the results and especially happy to know and work with Lucy. <br>
                     Joy Vaughan, South Bristol, ME<br>
                     <br>
 
-                    Oh, Lucy! Your choice of fabrics is brilliant. The room is transformed by the these three slip covers! 
-                    Our favorite swivel rockers look so good everyone thinks they are new. Thank you again. 
+                    Oh, Lucy! Your choice of fabrics is brilliant. The room is transformed by the these three slip covers!
+                    Our favorite swivel rockers look so good everyone thinks they are new. Thank you again.
                     <br>
                     Jane, Damariscotta, ME
 
@@ -179,30 +179,30 @@ if (!session_id())
                     the result looks like we acquired new furniture! <br>
                     I recommend her highly. <br>
                     Brinna, Bremen Long Island, ME <br>
-                    
                     <br>
-                        Hi Lucy,<br>
-                    Thank you so much--I LOVE MY CUSHION!!! your color choices are brilliant! and it looks beautiful 
-                    at night and in daylight--the chair feels amazingly stable too- next--suggestions for redoing the 
-                    rush bottom on the largest of the old dining room chairs?<br>
-                     Thank you, Ann<br>
-                     <br>
 
-                     <div id="more1">
+                    <div id="more1">
                         <p>
 
-                     Dear Lucy, <br>
-                    I want to express my gratitude for the very capable assistance you provided when
-                    I decided to redecorate my home. I enjoyed hearing your creative suggestions and am so glad 
-                    I followed your advice for both my dining room and living room. The freshly painted walls compliment 
-                    the new furniture beautifully and I’m happy to have friends over to visit now. It was such a relief to 
-                    find someone with your abilities after my disappointing experience with a previous decorator. <br>
-                    Best o luck with your new venture and keep up the great work.<br>
-                    Very truly yours, Susan<br><br>
+                    Hi Lucy,<br>
+                    Thank you so much--I LOVE MY CUSHION!!! your color choices are brilliant! and it looks beautiful
+                    at night and in daylight--the chair feels amazingly stable too- next--suggestions for redoing the
+                    rush bottom on the largest of the old dining room chairs?<br>
+                    Thank you, Ann<br>
+                    <br>
+
+                            Dear Lucy, <br>
+                            I want to express my gratitude for the very capable assistance you provided when
+                            I decided to redecorate my home. I enjoyed hearing your creative suggestions and am so glad
+                            I followed your advice for both my dining room and living room. The freshly painted walls compliment
+                            the new furniture beautifully and I’m happy to have friends over to visit now. It was such a relief to
+                            find someone with your abilities after my disappointing experience with a previous decorator. <br>
+                            Best o luck with your new venture and keep up the great work.<br>
+                            Very truly yours, Susan<br><br>
 
                         </p>
                     </div>
-                    <!-- <button onclick="myFunction1()" id="myBtn1">Read more</button> -->
+
                     <div class="more-button">
                         <button id="myBtn1" class="button1" onclick="myFunction1()">Read More</button>
                     </div>
