@@ -28,7 +28,7 @@
         <br><br>
         
         <div class="block1">
-            <h2>The <span class="red-text">Re</span>decorator</h2>
+            <h2>The <span class="red-text">RE</span>decorator</h2>
         </div>
 
         <div class="block2">
