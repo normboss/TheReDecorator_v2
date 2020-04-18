@@ -54,7 +54,6 @@ body * {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  overflow: hidden;
 }
 
 .footer .footer-content {
@@ -68,7 +67,6 @@ body * {
       -ms-flex-align: center;
           align-items: center;
   margin: 0 auto;
-  overflow: hidden;
 }
 
 @media screen and (max-width: 500px) {
@@ -232,7 +230,6 @@ body * {
 }
 
 body {
-  margin: 0 auto;
   font-family: "Open Sans", sans-serif;
   margin: 0 auto;
   max-width: 1400px;
@@ -252,8 +249,7 @@ body {
 
 .container {
   margin-top: 50px;
-  width: 100%;
-  max-width: 1200px;
+  width: 95vw;
   margin: 0 auto;
 }
 
@@ -272,6 +268,8 @@ body {
 }
 
 .container .upper-block {
+  width: 100%;
+  margin-left: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -289,12 +287,11 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-left: 10px;
   }
 }
 
 .container .upper-block .column {
-  width: 400px;
+  width: 100%;
   margin: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -350,11 +347,18 @@ body {
   font-size: 50px;
   text-align: center;
   color: #7b7f83;
+  width: 100%;
 }
 
 @media screen and (max-width: 1200px) {
   .container .upper-block .column .column-copy-block .column-heading {
     font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .container .upper-block .column .column-copy-block .column-heading {
+    font-size: 30px;
   }
 }
 
@@ -433,7 +437,7 @@ body {
 }
 
 .container .photo-block .column-image {
-  width: 100%;
+  width: 80%;
   height: auto;
   margin: 0 auto;
 }

@@ -70,7 +70,7 @@ body * {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    overflow: hidden;
+    // overflow: hidden;
 
     .footer-content {
         display: flex;
@@ -83,7 +83,7 @@ body * {
         }
         // width: 60%;
         margin: 0 auto;
-        overflow: hidden;
+        // overflow: hidden;
 
         .footer-text {
             margin-right: 50px;

@@ -34,7 +34,7 @@ if (!session_id())
 
         <div class="logo">
             <h1>The <span class="red-text">RE</span>decorator</h1>
-            <p>Make the most of what you already have</p>
+            <!-- <p>Make the most of what you already have</p> -->
         </div>
 
     </header>

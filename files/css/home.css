@@ -54,7 +54,6 @@ body * {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  overflow: hidden;
 }
 
 .footer .footer-content {
@@ -68,7 +67,6 @@ body * {
       -ms-flex-align: center;
           align-items: center;
   margin: 0 auto;
-  overflow: hidden;
 }
 
 @media screen and (max-width: 500px) {
@@ -251,18 +249,13 @@ body {
 
 .header .logo {
   width: 920px;
+  width: 100%;
   position: absolute;
   text-align: center;
   left: 50%;
   top: 70%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-}
-
-@media screen and (max-width: 1000px) {
-  .header .logo {
-    width: 700px;
-  }
 }
 
 .header .logo h1 {

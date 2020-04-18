@@ -1,9 +1,6 @@
 @import "common";
 
-
 body {
-    // overflow: hidden;
-    margin: 0 auto;
     font-family: "Open Sans", sans-serif;
     margin: 0 auto;
     max-width: 1400px;
@@ -11,6 +8,7 @@ body {
     display: flex;
     flex-direction: column;
     // border: 3px solid red;
+    // overflow-x: hidden;
 }
 
 .red-text {
@@ -20,8 +18,7 @@ body {
 .container {
     // border: 3px solid red;
     margin-top: 50px;
-    width: 100%;
-    max-width: 1200px;
+    width: 95vw;
     margin: 0 auto;
 
     .outer-block {
@@ -31,72 +28,12 @@ body {
         margin: 0 auto;
         padding-left: 10px;
         padding-right: 10px;
-
-        // .block1 {
-        //     h2 {
-        //         font-size: 30px;
-        //         color: #7B7F83;
-        //         @include max-mixin(400px) {
-        //             font-size: 20px;
-        //         }
-        //     }
-        // }
-        // .block2 {
-        //     // border: 3px solid red;
-        //     display: flex;
-        //     align-items: center;
-        //     @include max-mixin(900px) {
-        //         flex-direction: column;
-        //     }
-
-        //     h1 {
-        //         font-family: "Oswald", sans-serif;
-        //         font-size: 80px;
-        //         color: #f00e0e;
-        //         @include max-mixin(900px) {
-        //             font-size: 10vw;
-        //         }
-        //         @include max-mixin(450px) {
-        //             font-size: 40px;
-        //         }
-        //     }
-        //     p {
-        //         border: 1px solid #707070;
-        //         font-weight: 400;
-        //         color: black;
-        //         font-size: 25px;
-        //         background-color: #f0dead;
-        //         padding: 10px 10px 13px 10px;
-        //         height: 60px;
-        //         margin-left: 40px;
-        //         margin-top: 10px;
-        //         @include max-mixin(900px) {
-        //             // font-size: 2.5vw;
-        //             margin-left: 10px;
-        //         }
-        //         @include max-mixin(900px) {
-        //             font-size: 4vw;
-        //         }
-        //         @include max-mixin(400px) {
-        //             font-size: 15px;
-        //             margin-left: 0;
-        //             margin-right: 0;
-        //         }
-        //     }
-        // }
-        // .block3 {
-        //     // border: 3px solid red;
-        //     color: #707070;
-        //     // width: 60%;
-        //     font-size: 28px;
-        //     @include max-mixin(500px) {
-        //         font-size: 22px;
-        //     }
-        // }
     }
 
     .upper-block {
         // border: 3px solid blue;
+        width: 100%;
+        margin-left: 0;
         // margin: 0 auto;
         // min-height: 500px;
         // margin-bottom: 30px;
@@ -107,26 +44,19 @@ body {
         @include max-mixin(1000px) {
             flex-direction: column;
             align-items: center;
-            margin-left: 10px;
+            // margin-left: 10px;
         }
 
         .column {
-            // width: 100%;
-            width: 400px;
-            // // margin: 0 auto;
+            // border: 3px solid green;
+            width: 100%;
             margin: 20px;
-            //     border: 3px solid green;
             display: flex;
             flex-direction: column;
 
             @include max-mixin(1000px) {
                 flex-direction: row;
                 width: 100%;
-                // max-width: 1000px;
-                // min-width: 100px;
-                // img {
-                //     width: 100%;
-                // }
             }
             @include max-mixin(550px) {
                 flex-direction: column;
@@ -156,28 +86,26 @@ body {
                 width: 100%;
                 text-align: center;
                 padding: 0 25px;
-                // @include max-mixin(1000px) {
-                //     width: 350px;
-                // }
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
-                @include max-mixin(750px) {
-                }
 
                 .column-heading {
+                    // border: 3px solid red;
                     font-family: 600;
                     font-size: 50px;
                     text-align: center;
                     color: #7b7f83;
+                    width: 100%;
                     @include max-mixin(1200px) {
                         font-size: 40px;
                     }
-                    // @include max-mixin(1000px) {
-                    //     font-size: 50px;
-                    // }
+                    @include max-mixin(400px) {
+                        font-size: 30px;
+                    }
                 }
                 .column-copy {
+                    // border: 3px solid red;
                     color: #707070;
                     font-size: 20px;
                     line-height: 2;
@@ -219,7 +147,6 @@ body {
             grid-template-columns: 1fr 1fr;
             margin-left: 10px;
             padding-right: 20px;
-
         }
         @include max-mixin(500px) {
             grid-template-columns: 1fr;
@@ -240,7 +167,7 @@ body {
 
         .column-image {
             // border: 3px solid red;
-            width: 100%;
+            width: 80%;
             // width: 400px;
             height: auto; //3100px;
             margin: 0 auto;
@@ -291,9 +218,7 @@ body {
                 }
             }
         }
-
     }
-
 }
 
 .trailer {
@@ -306,7 +231,7 @@ body {
     @include max-mixin(450px) {
         width: 90%;
     }
-        // height: 500px;
+    // height: 500px;
     margin-bottom: 50px;
 
     .heading {
@@ -357,6 +282,5 @@ body {
         @include max-mixin(500px) {
             padding-top: 25px;
         }
-
     }
 }
