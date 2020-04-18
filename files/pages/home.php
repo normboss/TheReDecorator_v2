@@ -24,17 +24,9 @@ if (!session_id())
 
         <?php require '../inc/menu.php';     ?>
 
-        <!-- <nav class="menu1">
-            <ul>
-                <li><a href="home.php">HOME</a></li>
-                <li><a href="slipcovers.php">SLIPCOVERS</a></li>
-                <li><a href="contact.php">CONTACT</a></li>
-            </ul>
-        </nav> -->
-
         <div class="logo">
             <h1>The <span class="red-text">RE</span>decorator</h1>
-            <!-- <p>Make the most of what you already have</p> -->
+            <p>Make the most of what you already have</p>
         </div>
 
     </header>
