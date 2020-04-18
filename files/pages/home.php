@@ -34,8 +34,8 @@ if (!session_id())
     <section class="home-way">
         <h1>Your Home, Your&nbsp;Way</h1>
         <p>
-            Choosing fabrics, paint colors, accessories and decorative accents
-            that compliment the architectural elements in your space is my specialty.
+        Choosing fabrics, paint colors, accessories and decorative accents that 
+        complement the architectural elements in your space is my specialty.
         </p>
 
     </section>
@@ -155,7 +155,7 @@ if (!session_id())
                     I recommend Lucy’s work highly. She completed a slipcover for me quickly and made an ugly chair look decent.
                     <br>
                     The price was right and exactly what she had quoted. I’m happy with the results and especially happy to know and work with Lucy. <br>
-                    Joy Vaughan, South Bristol, ME<br>
+                    Joy, South Bristol, ME<br>
                     <br>
 
                     Oh, Lucy! Your choice of fabrics is brilliant. The room is transformed by the these three slip covers!
