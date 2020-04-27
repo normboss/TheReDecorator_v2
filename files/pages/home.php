@@ -8,13 +8,45 @@ if (!session_id())
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>The Redecorator - home</title>
+    <title>The ReDecorator - recorating and custom slip covers</title>
+
+    <meta name="description" content="Lucy Smith the Redecorator,
+Lucy Smith custom slipcovers fit renew couch, loveseat, chair,
+pillows, cushion covers, recover furniture, sewing, fabric choice,
+washable slipcovers,
+Midcoast Maine, Damariscotta, South Bristol, Newcastle, Boothbay">
+
+    <meta name="description" content="Reduce, reuse, rearrange, reorganize, 
+    declutter, downsize, clutter control,Help reorganize in Midcoast Maine,
+Redecorating in Midcoast Maine,Help with home decor">
+
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="../css/home.css" media="screen" rel="stylesheet" type="text/css">
     <script src="//code.jquery.com/jquery-1.10.2.js"></script>
     <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon-16x16.png">
     <!-- <script src="https://kit.fontawesome.com/4503cd8997.js" crossorigin="anonymous"></script> -->
+
+
+    <!-- Lucy came up with a few more things to add to key words.
+I just redid the entire list below.
+
+The Redecorator  Key words / phrases
+
+
+Lucy Smith the Redecorator,
+Lucy Smith custom slipcovers fit, renew couch, loveseat, chair,
+pillows, cushion covers, recover furniture, sewing, fabric choice,
+washable slipcovers, Sprouls Furniture slipcovers
+Midcoast Maine, Damariscotta, South Bristol, Newcastle, Lincoln County Maine,
+
+Reduce, reuse, rearrange, reorganize, declutter, downsize, clutter control
+Help reorganize in Midcoast Maine
+Redecorating in Midcoast Maine,
+Help with estate reduction
+Help with home decor
+Help eliminate junk in my home,
+reducing clutter -->
 
 </head>
 
@@ -34,8 +66,8 @@ if (!session_id())
     <section class="home-way">
         <h1>Your Home, Your&nbsp;Way</h1>
         <p>
-        Choosing fabrics, paint colors, accessories and decorative accents that 
-        complement the architectural elements in your space is my specialty.
+            Choosing fabrics, paint colors, accessories and decorative accents that
+            complement the architectural elements in your space is my specialty.
         </p>
 
     </section>
@@ -44,8 +76,8 @@ if (!session_id())
         <div class="centering-block">
 
             <!-- Column1 -->
-            <div class="column column1">
-                <img src="../img/fabric_samples.png" alt="">
+            <div id="column1" class="column column1">
+                <img src="../img/fabric_samples.png" alt="Close-up of folded fabric and scissors">
 
                 <div class="column1-block1">
                     <h3>The <span class="red-text">RE</span>decorator</h3>
@@ -56,7 +88,8 @@ if (!session_id())
                 </div>
 
                 <div class="lucy-image">
-                    <img src="../img/lucy_72.png" alt="" style="width: 50%; height: 50%;">
+                    <img src="../img/lucy_72.png" alt="" 
+                    style="width: 50%; height: 50%;">
                 </div>
 
                 <div class="column1-block3 column1-block">
@@ -100,8 +133,8 @@ if (!session_id())
             </div>
 
             <!-- Column2 -->
-            <div class="column column2">
-                <img src="../img/blue_plaid_flounce72.png" alt="">
+            <div id="column2" class="column column2">
+                <img src="../img/blue_plaid_flounce72.png" alt="Silhouette of blue plaid chair with matching pillow and ruffled skirt">
                 <div class="column2-block1">
                     <h2>Custom Slipcovers!</h2>
                 </div>
@@ -139,10 +172,8 @@ if (!session_id())
             </div>
 
             <!-- Column3 -->
-            <div class="column column3">
-                <img src="../img/kitchen.png" alt="">
-                <!-- <div class="column3-block1 column3-block">
-                </div> -->
+            <div id="column3" class="column column3">
+                <img src="../img/kitchen.png" alt="Kitchen with center table island, windows, hanging lighting and pans">
                 <div class="column3-block2 column3-block">
                     Testimonials
                 </div>
@@ -173,12 +204,12 @@ if (!session_id())
                     <div id="more1">
                         <p>
 
-                    Hi Lucy,<br>
-                    Thank you so much--I LOVE MY CUSHION!!! your color choices are brilliant! and it looks beautiful
-                    at night and in daylight--the chair feels amazingly stable too- next--suggestions for redoing the
-                    rush bottom on the largest of the old dining room chairs?<br>
-                    Thank you, Ann<br>
-                    <br>
+                            Hi Lucy,<br>
+                            Thank you so much--I LOVE MY CUSHION!!! your color choices are brilliant! and it looks beautiful
+                            at night and in daylight--the chair feels amazingly stable too- next--suggestions for redoing the
+                            rush bottom on the largest of the old dining room chairs?<br>
+                            Thank you, Ann<br>
+                            <br>
 
                             Dear Lucy, <br>
                             I want to express my gratitude for the very capable assistance you provided when
@@ -202,8 +233,6 @@ if (!session_id())
     </main>
 
     <?php require '../inc/footer.php' ?>
-
-
 
 </body>
 

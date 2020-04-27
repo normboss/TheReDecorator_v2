@@ -4,7 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <title>The Redecorator - slipcovers</title>
-    <meta name="description" content="">
+    <title>The ReDecorator - recorating and custom slip covers</title>
+
+    <meta name="description" content="Lucy Smith the Redecorator,
+Lucy Smith custom slipcovers fit renew couch, loveseat, chair,
+pillows, cushion covers, recover furniture, sewing, fabric choice,
+washable slipcovers,
+Midcoast Maine, Damariscotta, South Bristol, Newcastle, Boothbay">
+
+    <meta name="description" content="Reduce, reuse, rearrange, reorganize, 
+    declutter, downsize, clutter control,Help reorganize in Midcoast Maine,
+Redecorating in Midcoast Maine,Help with home decor">
+
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="../css/slipcovers.css" media="screen" rel="stylesheet" type="text/css">
     <script src="//code.jquery.com/jquery-1.10.2.js"></script>
@@ -41,12 +53,12 @@
         </div>
 
         <!-- block 1 -->
-        <div id="block1" class="upper-block">
+        <div id="block1" class="upper-block" title="Overview of Lucy's work">
 
             <!-- Column1 -->
-            <div class="column">
+            <div id="column1" class="column">
                 <div class="column-image">
-                    <img src="../img/fabric_samples_sq.png" alt="">
+                    <img src="../img/fabric_samples_sq.png" alt="Close-up of folded fabric and scissors">
                 </div>
                 <div class="column-copy-block">
                     <div class="column-heading">
@@ -60,9 +72,9 @@
             </div>
 
             <!-- Column2 -->
-            <div class="column">
+            <div id="column2" class="column">
                 <div class="column-image">
-                    <img src="../img/lucy_pins.png" alt="">
+                    <img src="../img/lucy_pins.png" alt="Lucy works on a slipcover in a dark floral print">
                 </div>
                 <div class="column-copy-block">
                     <div class="column-heading">
@@ -77,7 +89,7 @@
             <!-- Column3 -->
             <div id="column3" class="column column3">
                 <div class="column-image">
-                    <img src="../img/barrel_chair_72.png" alt="">
+                    <img src="../img/barrel_chair_72.png" alt="Frontal view of slipcovered chair in solid fabric">
                 </div>
                 <div class="column-copy-block">
                     <div class="column-heading">
@@ -92,49 +104,49 @@
         </div>
 
         <!-- block 2 -->
-        <div class="photo-block">
+        <div class="photo-block" title="Photos of work done by Lucy">
 
             <div id="image1" class="column-image">
-                <img src="../img/piping.png" alt="">
+                <img src="../img/piping.png" alt="Large upholstered couch in a solid natural fabric with contrast piping">
             </div>
             <div id="image2" class="column-image">
-                <img src="../img/back ties72.png" alt="">
+                <img src="../img/back ties72.png" alt="Close-up of bows used to tie a solid natural slipcover on the back of chair">
             </div>
             <div id="image3" class="column-image">
-                <img src="../img/button_back.png" alt="">
+                <img src="../img/button_back.png" alt="Back 3/4 view of solid natural slipcover on a chair">
             </div>
             <div id="image4" class="column-image">
-                <img src="../img/dining_red_cks72.png" alt="">
+                <img src="../img/dining_red_cks72.png" alt="6 slipcovered red & white check dinning room chairs and table in dinning room">
             </div>
             <div id="image5" class="column-image">
-                <img src="../img/red chair72.png" alt="">
+                <img src="../img/red chair72.png" alt="Red floral slipcovered wing chair in living room">
             </div>
             <div id="image6" class="column-image">
-                <img src="../img/red_white_stripe72.png" alt="">
+                <img src="../img/red_white_stripe72.png" alt="Gold & white striped 2 cushion couch with plain front in living room">
             </div>
             <div id="image7" class="column-image">
-                <img src="../img/couch_flounce72.png" alt="">
+                <img src="../img/couch_flounce72.png" alt="Rolled-arm sofa in large print with piping & ruffle in a living room">
             </div>
             <div id="image8" class="column-image">
-                <img src="../img/tack_back72.png" alt="">
+                <img src="../img/tack_back72.png" alt="3/4 back view of upholstered solid natural desk chair with piping and tack detail in office">
             </div>
             <div id="image9" class="column-image">
-                <img src="../img/gold_chair72.png" alt="">
+                <img src="../img/gold_chair72.png" alt="2-tone gold trellis slipcovered chair with piping, ruffle detail and contrast pillow">
             </div>
             <div id="image10" class="column-image">
-                <img src="../img/tie_chair72.png" alt="">
+                <img src="../img/tie_chair72.png" alt="3/4 front view of solid natural slipcovered chair with bow-tied detail">
             </div>
             <div id="image11" class="column-image">
-                <img src="../img/camel_back72.png" alt="">
+                <img src="../img/camel_back72.png" alt="Formal natural striped couch with rolled arms, three pillows and box pleat base in living room">
             </div>
             <div id="image12" class="column-image">
-                <img src="../img/lucys_couch72.png" alt="">
+                <img src="../img/lucys_couch72.png" alt="3/4 front view of rose & green floral upholstered antique sofa with wooden legs">
             </div>
             <div id="image13" class="column-image">
-                <img src="../img/before72.png" alt="">
+                <img src="../img/before72.png" alt="'Before' upholstered sofa in green diamond-patterned fabric with tack detail and wooden legs">
             </div>
             <div id="image14" class="column-image">
-                <img src="../img/after72.png" alt="">
+                <img src="../img/after72.png" alt="'After' slipcovered sofa in pale green fabric with ties and skirt detail">
             </div>
             <div id="image15" class="column-image">
                 <img src="../img/studio_bench72.png" alt="">

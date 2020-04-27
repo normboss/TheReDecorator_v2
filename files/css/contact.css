@@ -3,8 +3,7 @@
 body * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 @font-face {
@@ -31,8 +30,7 @@ body * {
   height: 60px;
   background-color: #f0e3df;
   background: #f0e3df 0% 0% no-repeat padding-box;
-  -webkit-box-shadow: 0px 3px 6px #bfb7b4;
-          box-shadow: 0px 3px 6px #bfb7b4;
+  box-shadow: 0px 3px 6px #bfb7b4;
   font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
@@ -44,40 +42,22 @@ body * {
   width: 100%;
   height: 160px;
   background-color: #F0E3DF;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .footer .footer-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
   margin: 0 auto;
 }
 
 @media screen and (max-width: 500px) {
   .footer .footer-content {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
   }
 }
@@ -105,18 +85,12 @@ body * {
 }
 
 .header .menu1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  justify-content: flex-end;
   padding-top: 25px;
 }
 
 .header .menu1 ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   font-family: "Open Sans";
   font-size: 18px;
@@ -150,20 +124,13 @@ body * {
 }
 
 .block2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 
 @media screen and (max-width: 900px) {
   .block2 {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     padding-bottom: 25px;
   }
 }
@@ -235,13 +202,8 @@ body {
   margin: 0 auto;
   max-width: 1000px;
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
 
 .red-text {
@@ -270,24 +232,15 @@ body {
   font-family: "Open Sans";
   font-size: 14px;
   min-width: 250px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
   padding-top: 20px;
 }
 
 @media screen and (max-width: 1000px) {
   .main .form-container {
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    align-items: flex-start;
     padding-left: 20px;
   }
 }
@@ -357,8 +310,6 @@ body {
 }
 
 .main .form-container form .field-block {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin-bottom: 20px;
   width: auto;
@@ -427,7 +378,6 @@ body {
   padding: 2px 18px;
   text-decoration: none;
   background-color: #f8f8f8;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f8f8f8), to(#d8d8d8));
   background: linear-gradient(#f8f8f8, #d8d8d8);
   border: solid 1px #d8d8d8;
   border-radius: 5px;
@@ -437,7 +387,6 @@ body {
   text-decoration: none;
   color: #fff;
   background-color: #7b88c5;
-  background: -webkit-gradient(linear, left top, left bottom, from(#7b88c5), to(#435299));
   background: linear-gradient(#7b88c5, #435299);
   border: solid 1px #435299;
   border-radius: 5px;

@@ -4,7 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Redecorator - contact</title>
+    <title>The ReDecorator - recorating and custom slip covers</title>
+
+    <meta name="description" content="Lucy Smith the Redecorator,
+Lucy Smith custom slipcovers fit renew couch, loveseat, chair,
+pillows, cushion covers, recover furniture, sewing, fabric choice,
+washable slipcovers,
+Midcoast Maine, Damariscotta, South Bristol, Newcastle, Boothbay">
+
+    <meta name="description" content="Reduce, reuse, rearrange, reorganize, 
+    declutter, downsize, clutter control,Help reorganize in Midcoast Maine,
+Redecorating in Midcoast Maine,Help with home decor">
+
+
     <meta name="description" content="">
     <link href="../css/contact.css" media="screen" rel="stylesheet" type="text/css">
     <script src="//code.jquery.com/jquery-1.10.2.js"></script>
@@ -18,13 +30,6 @@
 
     <?php     require '../inc/menu.php';     ?>
 
-        <!-- <nav class="menu1">
-            <ul>
-                <li><a href="home.php">HOME</a></li>
-                <li><a href="slipcovers.php">SLIPCOVERS</a></li>
-                <li><a href="contact.php">CONTACT</a></li>
-            </ul>
-        </nav> -->
         <br><br>
         
         <div class="block1">
@@ -39,9 +44,7 @@
     </header>
 
     <main class="main">
-        <img src="../img/contact_lucy.png" alt="">
-
-
+        <img src="../img/contact_lucy.png" alt="Lucy sitting at desk with mobile phone, pen & notebook plus old-fashioned phone, lamp and bouquet of flowers">
         <div class="form-container">
 
             <div class="text-block">
