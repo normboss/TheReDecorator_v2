@@ -2,8 +2,12 @@
 <html lang="en">
 
 <head>
+<?php
+    require '../inc/globalSiteTag.html';
+    require '../inc/keywords.php';
+    ?>
     <meta charset="UTF-8">
-    <title>The Redecorator - slipcovers</title>
+    <!-- <title>The Redecorator - slipcovers</title>
     <title>The ReDecorator - recorating and custom slip covers</title>
 
     <meta name="description" content="Lucy Smith the Redecorator,
@@ -14,7 +18,7 @@ Midcoast Maine, Damariscotta, South Bristol, Newcastle, Boothbay">
 
     <meta name="description" content="Reduce, reuse, rearrange, reorganize, 
     declutter, downsize, clutter control,Help reorganize in Midcoast Maine,
-Redecorating in Midcoast Maine,Help with home decor">
+Redecorating in Midcoast Maine,Help with home decor"> -->
 
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
