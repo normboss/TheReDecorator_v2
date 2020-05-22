@@ -4,26 +4,14 @@
 <head>
 <?php
     require '../inc/globalSiteTag.html';
-    require '../inc/keywords.php';
     ?>
+    <title>The Redecorator | custom slipcovers</title>
+    <meta name="description" content="See washable, long wearing slipcovers professionally fitted and constructed for variety of furniture styles. Over 35 years experience in the field. Friendly help with fabric selection.">
+
+
     <meta charset="UTF-8">
-    <!-- <title>The Redecorator - slipcovers</title>
-    <title>The ReDecorator - recorating and custom slip covers</title>
-
-    <meta name="description" content="Lucy Smith the Redecorator,
-Lucy Smith custom slipcovers fit renew couch, loveseat, chair,
-pillows, cushion covers, recover furniture, sewing, fabric choice,
-washable slipcovers,
-Midcoast Maine, Damariscotta, South Bristol, Newcastle, Boothbay">
-
-    <meta name="description" content="Reduce, reuse, rearrange, reorganize, 
-    declutter, downsize, clutter control,Help reorganize in Midcoast Maine,
-Redecorating in Midcoast Maine,Help with home decor"> -->
-
-
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="../css/slipcovers.css" media="screen" rel="stylesheet" type="text/css">
-    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
     <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon-16x16.png">
 
 </head>

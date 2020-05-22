@@ -8,38 +8,14 @@ if (!session_id())
 <head>
 <?php
     require '../inc/globalSiteTag.html';
-    require '../inc/keywords.php';
     ?>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>The Redecorator | Lucy Smith</title>
+    <meta name="description" content="Organize, declutter and bring out the best of what you already have. Great reviews! Serving mid-coast Maine.">
 
-    <meta name="description" content="">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="../css/home.css" media="screen" rel="stylesheet" type="text/css">
-    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
     <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon-16x16.png">
-    <!-- <script src="https://kit.fontawesome.com/4503cd8997.js" crossorigin="anonymous"></script> -->
-
-
-    <!-- Lucy came up with a few more things to add to key words.
-I just redid the entire list below.
-
-The Redecorator  Key words / phrases
-
-
-Lucy Smith the Redecorator,
-Lucy Smith custom slipcovers fit, renew couch, loveseat, chair,
-pillows, cushion covers, recover furniture, sewing, fabric choice,
-washable slipcovers, Sprouls Furniture slipcovers
-Midcoast Maine, Damariscotta, South Bristol, Newcastle, Lincoln County Maine,
-
-Reduce, reuse, rearrange, reorganize, declutter, downsize, clutter control
-Help reorganize in Midcoast Maine
-Redecorating in Midcoast Maine,
-Help with estate reduction
-Help with home decor
-Help eliminate junk in my home,
-reducing clutter -->
 
 </head>
 

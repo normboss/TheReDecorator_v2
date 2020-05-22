@@ -4,13 +4,14 @@
 <head>
 <?php
     require '../inc/globalSiteTag.html';
-    require '../inc/keywords.php';
     ?>
+    <title>The Redecorator | Contact Lucy</title>
+    <meta name="description" content="Get in touch with experienced home organizer with excellent design sense.">
+
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
     <link href="../css/contact.css" media="screen" rel="stylesheet" type="text/css">
-    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
     <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon-16x16.png">
 
 </head>
