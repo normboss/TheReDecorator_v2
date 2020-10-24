@@ -6,7 +6,7 @@ if (!session_id())
 
 
 <head>
-    <?php
+<?php
     require '../inc/globalSiteTag.html';
     ?>
     <title>The Redecorator | Lucy Smith</title>
@@ -58,7 +58,8 @@ if (!session_id())
                 </div>
 
                 <div class="lucy-image">
-                    <img src="../img/lucy_72.png" alt="" style="width: 50%; height: 50%;">
+                    <img src="../img/lucy_72.png" alt="" 
+                    style="width: 50%; height: 50%;">
                 </div>
 
                 <div class="column1-block3 column1-block">
@@ -146,49 +147,50 @@ if (!session_id())
                 <div class="column3-block2 column3-block">
                     Testimonials
                 </div>
+
                 <div class="column3-block3 column3-block">
+                    Lucy brings years of experience to every job and delivers excellent workmanship and a perfect fit. <br>
+                    Suzette, Belfast, ME<br>
 
-                You did a fantastic job, it is difficult to tell the slip cover from a complete recovering job. 
-                I couldn’t be more pleased with the results. You are certainly a skilled artisan. Thank you. Marty
-                <br><br>
-                Lucy brings years of experience to every job and delivers excellent workmanship and a perfect fit. <br>
-                Suzette, Belfast, ME
-                <br><br>
-                I recommend Lucy’s work highly. She completed a slipcover for me quickly and made an ugly chair look decent. 
-                The price was right and exactly what she had quoted. 
-                I’m happy with the results and especially happy to know and work with Lucy.
-                <br>
-                Joy, South Bristol, ME
-                <br><br>
-                Oh, Lucy! Your choice of fabrics is brilliant. The room is transformed by the these three slip covers! 
-                Our favorite swivel rockers look so good everyone thinks they are new. Thank you again. 
-                <br>
-                Jane, Damariscotta, ME
-                <br><br>
+                    <br>
+                    I recommend Lucy’s work highly. She completed a slipcover for me quickly and made an ugly chair look decent.
+                    <br>
+                    The price was right and exactly what she had quoted. I’m happy with the results and especially happy to know and work with Lucy. <br>
+                    Joy, South Bristol, ME<br>
+                    <br>
 
+                    Oh, Lucy! Your choice of fabrics is brilliant. The room is transformed by the these three slip covers!
+                    Our favorite swivel rockers look so good everyone thinks they are new. Thank you again.
+                    <br>
+                    Jane, Damariscotta, ME
+
+                    <br><br>
+                    Lucy Smith replaced some very worn slipcovers for us and did a meticulous job;
+                    the result looks like we acquired new furniture! <br>
+                    I recommend her highly. <br>
+                    Brinna, Bremen Long Island, ME <br>
+                    <br>
 
                     <div id="more1">
-                        Lucy Smith replaced some very worn slipcovers for us and did a meticulous job; 
-                        the result looks like we acquired new furniture! I recommend her highly. 
-                        <br>
-                        Brinna, Bremen Long Island, ME
-                        <br><br>
-                        Hi Lucy, Thank you so much—I LOVE MY CUSHION!!! your color choices are brilliant! 
-                        and it looks beautiful at night and in daylight—the chair feels amazingly stable 
-                        too- next—suggestions for redoing the rush bottom on the largest of the old dining room chairs? 
-                        <br>
-                        Thank you, Ann
-                        <br><br>
-                        Dear Lucy, I want to express my gratitude for the very capable assistance you provided
-                         when I decided to redecorate my home. I enjoyed hearing your creative suggestions and 
-                         am so glad I followed your advice for both my dining room and living room. 
-                         The freshly painted walls compliment the new furniture beautifully and I’m happy to have 
-                         friends over to visit now. It was such a relief to find someone with your abilities after 
-                         my disappointing experience with a previous decorator. Best o luck with your new venture 
-                         and keep up the great work. 
-                         <br>Very truly yours, Susan
+                        <p>
 
+                            Hi Lucy,<br>
+                            Thank you so much--I LOVE MY CUSHION!!! your color choices are brilliant! and it looks beautiful
+                            at night and in daylight--the chair feels amazingly stable too- next--suggestions for redoing the
+                            rush bottom on the largest of the old dining room chairs?<br>
+                            Thank you, Ann<br>
+                            <br>
 
+                            Dear Lucy, <br>
+                            I want to express my gratitude for the very capable assistance you provided when
+                            I decided to redecorate my home. I enjoyed hearing your creative suggestions and am so glad
+                            I followed your advice for both my dining room and living room. The freshly painted walls compliment
+                            the new furniture beautifully and I’m happy to have friends over to visit now. It was such a relief to
+                            find someone with your abilities after my disappointing experience with a previous decorator. <br>
+                            Best o luck with your new venture and keep up the great work.<br>
+                            Very truly yours, Susan<br><br>
+
+                        </p>
                     </div>
 
                     <div class="more-button">

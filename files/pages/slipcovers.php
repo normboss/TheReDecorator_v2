@@ -143,6 +143,9 @@
             <div id="image15" class="column-image">
                 <img src="../img/studio_bench72.png" alt="">
             </div>
+            <div id="image15" class="column-image">
+                <img src="../img/luv_seat_slip.jpg" alt="">
+            </div>
         </div>
 
     </main>
